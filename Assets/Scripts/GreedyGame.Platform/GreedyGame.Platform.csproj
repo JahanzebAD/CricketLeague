@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>GreedyGame.Platform</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net35</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="GreedyGame.Commons">
+      <HintPath>..\..\..\..\..\World Cricket\assets\bin\Data\Managed\GreedyGame.Commons.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\World Cricket\assets\bin\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="GreedyGame.NativeBridge">
+      <HintPath>..\..\..\..\..\World Cricket\assets\bin\Data\Managed\GreedyGame.NativeBridge.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

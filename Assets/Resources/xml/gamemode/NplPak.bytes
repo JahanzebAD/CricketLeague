@@ -1,0 +1,64 @@
+<cricket>
+	<team name="Islamabad Muharib" abbr="ISB" ranking="1" id="0">
+	<match>2</match>
+	<match>4</match>
+	<match>1</match>
+	<match>3</match>
+	<match>1</match>
+	<match>4</match>
+	<match>2</match>
+	<match>3</match>
+	</team>
+	<team name="Karachi Knights" abbr="KAR" ranking="3" id="1">
+	<match>0</match>
+	<match>4</match>
+	<match>2</match>
+	<match>3</match>
+	<match>3</match>
+	<match>4</match>
+	<match>0</match>
+	<match>2</match>
+	</team>
+	<team name="Lahore Lions" abbr="LHE" ranking="4" id="2">
+	<match>3</match>
+	<match>1</match>
+	<match>4</match>
+	<match>0</match>
+	<match>3</match>
+	<match>1</match>
+	<match>4</match>
+	<match>0</match>
+	</team>
+	<team name="Peshawar Jawaans" abbr="PWR" ranking="2" id="3">
+	<match>0</match>
+	<match>4</match>
+	<match>1</match>
+	<match>2</match>
+	<match>1</match>
+	<match>0</match>
+	<match>2</match>
+	<match>4</match>
+	</team>
+	<team name="Quetta Conquerors" abbr="QTA" ranking="5" id="4">
+	<match>2</match>
+	<match>0</match>
+	<match>1</match>
+	<match>3</match>
+	<match>0</match>
+	<match>2</match>
+	<match>3</match>
+	<match>1</match>
+	</team>
+<!--	<team name="Multan" abbr="MUL" ranking="5" id="5">
+	<match>4</match>
+	<match>2</match>
+	<match>3</match>
+	<match>1</match>
+	<match>0</match>
+	<match>1</match>
+	<match>4</match>
+	<match>3</match>
+	<match>2</match>
+	<match>0</match>
+	</team>-->
+</cricket>

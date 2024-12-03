@@ -1,0 +1,149 @@
+<cricket>
+	<team name="Afghanistan" group="A" abbr="AFG" ranking="14" id="10"> //1
+	<match>11</match>
+	<match>13</match>
+	<match>3</match>
+	<match>10</match>
+	<match>1</match>
+	<match>8</match>
+	<match>2</match>
+	</team>
+	<team name="Australia" group="A" abbr="AUS" ranking="4" id="0"> //2
+	<match>2</match>
+	<match>11</match>
+	<match>3</match>
+	<match>0</match>
+	<match>10</match>
+	<match>13</match>
+	<match>8</match>
+	</team>
+	<team name="Bangladesh" group="A" abbr="BAN" ranking="9" id="8"> //3
+	<match>1</match>
+	<match>13</match>
+	<match>3</match>
+	<match>11</match>
+	<match>8</match>
+	<match>10</match>
+	<match>0</match>
+	</team>
+	<team name="England" group="A" abbr="ENG" ranking="1" id="4"> //4
+	<match>8</match>
+	<match>2</match>
+	<match>0</match>
+	<match>1</match>
+	<match>10</match>
+	<match>13</match>
+	<match>11</match>
+	</team>
+	<team name="India" group="B" abbr="IND" ranking="3" id="1"> //5
+	<match>9</match>
+	<match>5</match>
+	<match>7</match>
+	<match>15</match>
+	<match>14</match>
+	<match>12</match>
+	<match>6</match>
+	</team>
+	<team name="Ireland" group="B" abbr="IRE" ranking="10" id="12"> //6
+	<match>9</match>
+	<match>4</match>
+	<match>6</match>
+	<match>15</match>
+	<match>7</match>
+	<match>12</match>
+	<match>14</match>
+	</team>
+	<team name="Kenya" group="B" abbr="KEN" ranking="16" id="14"> //7
+	<match>7</match>
+	<match>15</match>
+	<match>5</match>
+	<match>14</match>
+	<match>9</match>
+	<match>4</match>
+	<match>12</match>
+	</team>
+	<team name="Netherlands" group="B" abbr="NED" ranking="15" id="15"> //8
+	<match>14</match>
+	<match>6</match>
+	<match>12</match>
+	<match>9</match>
+	<match>4</match>
+	<match>5</match>
+	<match>15</match>
+	</team>
+
+	<team name="New Zealand" group="A" abbr="NZ" ranking="8" id="6"> //9
+	<match>3</match>
+	<match>10</match>
+	<match>11</match>
+	<match>2</match>
+	<match>0</match>
+	<match>13</match>
+	<match>1</match>
+	</team>
+	<team name="Pakistan" group="B" abbr="PAK" ranking="6" id="5"> //10
+	<match>4</match>
+	<match>5</match>
+	<match>15</match>
+	<match>7</match>
+	<match>12</match>
+	<match>14</match>
+	<match>6</match>
+	</team>
+	<team name="Scotland" group="A" abbr="SCO" ranking="13" id="11"> //11
+	<match>13</match>
+	<match>8</match>
+	<match>11</match>
+	<match>0</match>
+	<match>3</match>
+	<match>2</match>
+	<match>1</match>
+	</team>
+	<team name="Sri Lanka" group="A" abbr="SL" ranking="2" id="3"> //12
+	<match>0</match>
+	<match>1</match>
+	<match>10</match>
+	<match>8</match>
+	<match>2</match>
+	<match>13</match>
+	<match>3</match>
+	</team>
+	<team name="South Africa" group="B" abbr="RSA" ranking="5" id="2"> //13
+	<match>14</match>
+	<match>7</match>
+	<match>9</match>
+	<match>15</match>
+	<match>5</match>
+	<match>4</match>
+	<match>6</match>
+	</team>
+
+	<team name="United Arab Emirates" group="A" abbr="UAE" ranking="11" id="13"> //14
+	<match>2</match>
+	<match>10</match>
+	<match>0</match>
+	<match>11</match>
+	<match>8</match>
+	<match>3</match>
+	<match>1</match>
+	</team>
+	<team name="West Indies" group="B" abbr="WI" ranking="7" id="7"> //15
+	<match>7</match>
+	<match>12</match>
+	<match>6</match>
+	<match>9</match>
+	<match>4</match>
+	<match>15</match>
+	<match>5</match>
+	</team>
+	<team name="Zimbabwe" group="B" abbr="ZIM" ranking="12" id="9"> //16
+	<match>6</match>
+	<match>9</match>
+	<match>5</match>
+	<match>12</match>
+	<match>4</match>
+	<match>7</match>
+	<match>14</match>
+	</team>
+</cricket>
+

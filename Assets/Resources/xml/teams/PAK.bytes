@@ -1,0 +1,83 @@
+<cricket>
+	<schedule>
+		<League>
+			<team name="Islamabad Muharib" abbrevation="ISB" ranking="21">
+				<PlayerDetails>
+				  <player name="A Heles" batAvg="65" battingHand="R" isBowler="0" bowlAvg="30" hd="6" hr="1" hrc="1" bm="19" bmc="1" ibro="16" ibroc="1" ib="3" sk="3" cap="0" sg="0" tt="3" ht="1.05" jno="39" pid="1" id="0" pe="1" />
+         <player name="L Ronche" batAvg="65" battingHand="R" isBowler="0" isKeeper="1" bowlAvg="30" hd="6" hr="51" hrc="2" bm="23" bmc="2" ibro="21" ibroc="2" ib="2" sk="3" cap="0" sg="0" tt="5" ht="0.97" jno="6" pid="2" id="1" pe="1" />
+         <player name="S Bilngs" batAvg="60" battingHand="R" isBowler="0" bowlAvg="30" hd="2" hr="48" hrc="0" bm="29" bmc="0" ibro="5" ibroc="0" ib="1" sk="3" cap="0" sg="0" tt="2" ht="1.05" jno="22" pid="3" id="2" pe="1" />
+         <player name="J Dumeny" batAvg="65" battingHand="L" isBowler="0" bowlAvg="30" hd="4" hr="16" hrc="0" bm="5" bmc="0" ibro="21" ibroc="0" ib="1" sk="3" cap="0" sg="0" tt="5" ht="0.97" jno="79" pid="4" id="3" pe="1" />
+         <player name="M Haqe" batAvg="65" battingHand="R" isBowler="0" isCaptain="1" bowlAvg="30" hd="2" hr="2" hrc="0" bm="38" bmc="0" ibro="21" ibroc="0" ib="5" sk="2" cap="0" sg="0" tt="0" ht="0.97" jno="37" pid="5" id="4" pe="1" />
+         <player name="A Rusel" batAvg="65" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="2" hd="2" hr="51" hrc="0" bm="39" bmc="0" ibro="20" ibroc="0" ib="1" sk="3" cap="0" sg="0" tt="0" ht="0.9" jno="78" pid="6" id="5" pe="1" />
+         <player name="F Asref" batAvg="55" battingHand="L" isBowler="1" bowlAvg="55" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="7" hd="2" hr="49" hrc="0" bm="29" bmc="0" ibro="16" ibroc="0" ib="2" sk="2" cap="0" sg="0" tt="6" ht="0.94" jno="4" pid="7" id="6" pe="1" />
+         <player name="D Wile" batAvg="55" battingHand="L" isBowler="1" bowlAvg="65" bowlingHand="L" bowlingStyle="Left-arm medium" bowlingType="3" bowlingOrder="8" hd="2" hr="48" hrc="1" bm="29" bmc="1" ibro="5" ibroc="1" ib="2" sk="2" cap="0" sg="0" tt="5" ht="1" jno="59" pid="8" id="7" pe="1" />
+         <player name="M Same" batAvg="30" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="1" hd="0" hr="1" hrc="0" bm="5" bmc="0" ibro="1" ibroc="0" ib="1" sk="3" cap="0" sg="0" tt="7" ht="0.9" jno="21" pid="9" id="8" pe="1" />
+         <player name="R Raee" batAvg="30" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="L" bowlingStyle="Left-arm fast" bowlingType="0" bowlingOrder="3" hd="6" hr="48" hrc="1" bm="19" bmc="1" ibro="16" ibroc="1" ib="2" sk="2" cap="0" sg="0" tt="1" ht="0.9" jno="74" pid="10" id="9" pe="1" />
+         <player name="S Badtee" batAvg="30" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="5" hd="4" hr="2" hrc="0" bm="39" bmc="0" ibro="5" ibroc="0" ib="1" sk="3" cap="0" sg="0" tt="2" ht="0.97" jno="75" pid="11" id="10" pe="1" />
+				</PlayerDetails>
+			</team>
+			<team name="Karachi Knights" abbrevation="KAR" ranking="3">
+				<PlayerDetails>
+				   <player name="B Azaum" batAvg="65" battingHand="R" isBowler="0" pid="1" hd="0" hr="29" hrc="0" bm="40" bmc="0" ibro="16" ibroc="0" ib="5" sk="2" cap="0" sg="0" tt="2" ht="0.97" jno="13" id="0" pe="1" />
+         <player name="I Wasime" batAvg="60" battingHand="L" isBowler="0" isCaptain="1" pid="2" hd="4" hr="2" hrc="0" bm="29" bmc="0" ibro="11" ibroc="0" ib="1" sk="3" cap="0" sg="0" tt="3" ht="0.94" jno="30" id="1" pe="1" />
+         <player name="U Khane" batAvg="70" battingHand="L" isBowler="0" pid="3" hd="4" hr="29" hrc="0" bm="1" bmc="0" ibro="20" ibroc="0" ib="1" sk="3" cap="0" sg="0" tt="0" ht="0.9" jno="84" id="2" pe="1" />
+         <player name="K Manzour" batAvg="65" battingHand="R" isBowler="0" pid="4" hd="6" hr="24" hrc="2" bm="23" bmc="2" ibro="20" ibroc="2" ib="5" sk="2" cap="0" sg="0" tt="7" ht="1" jno="33" id="3" pe="1" />
+         <player name="R Boparah" batAvg="60" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Left-arm Legbreak" bowlingType="2" bowlingOrder="1" pid="5" hd="0" hr="28" hrc="0" bm="19" bmc="0" ibro="18" ibroc="0" ib="1" sk="3" cap="0" sg="0" tt="6" ht="1" jno="86" id="4" pe="1" />
+         <player name="H Mohsine" batAvg="60" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="2" pid="6" hd="2" hr="29" hrc="0" bm="5" bmc="0" ibro="11" ibroc="0" ib="3" sk="3" cap="0" sg="0" tt="2" ht="0.9" jno="53" id="5" pe="1" />
+         <player name="S Bangaush" batAvg="60" battingHand="R" isBowler="0" isKeeper="1" pid="7" hd="0" hr="49" hrc="0" bm="5" bmc="0" ibro="17" ibroc="0" ib="3" sk="3" cap="0" sg="0" tt="5" ht="1.05" jno="31" id="6" pe="1" />
+         <player name="M Amier" batAvg="35" battingHand="L" isBowler="1" bowlAvg="65" bowlingHand="L" bowlingStyle="Left-arm fast" bowlingType="0" bowlingOrder="3" pid="8" hd="0" hr="1" hrc="2" bm="31" bmc="2" ibro="16" ibroc="2" ib="1" sk="2" cap="0" sg="0" tt="5" ht="0.97" jno="6" id="7" pe="1" />
+         <player name="U Mier" batAvg="40" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="4" pid="9" hd="0" hr="49" hrc="1" bm="23" bmc="1" ibro="5" ibroc="1" ib="5" sk="3" cap="0" sg="0" tt="1" ht="1" jno="27" id="8" pe="1" />
+         <player name="L Righte" batAvg="60" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="5" pid="10" hd="0" hr="51" hrc="1" bm="1" bmc="1" ibro="11" ibroc="1" ib="2" sk="3" cap="0" sg="0" tt="4" ht="1" jno="32" id="9" pe="1" />
+         <player name="S Afredi" batAvg="70" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="6" pid="11" hd="0" hr="48" hrc="2" bm="21" bmc="2" ibro="18" ibroc="2" ib="2" sk="3" cap="0" sg="0" tt="1" ht="0.9" jno="17" id="10" pe="1" />
+			
+				</PlayerDetails>
+			</team>
+			<team name="Lahore Lions" abbrevation="LHE" ranking="3">
+				<PlayerDetails>
+				   <player name="C Delpote" batAvg="60" battingHand="L" isBowler="0" pid="1" hd="2" hr="2" hrc="0" bm="40" bmc="0" ibro="18" ibroc="0" ib="2" sk="3" cap="0" sg="0" tt="5" ht="1.05" jno="59" id="0" pe="1" />
+         <player name="U Akmul" batAvg="65" battingHand="R" isBowler="0" isKeeper="1" pid="2" hd="6" hr="48" hrc="2" bm="5" bmc="2" ibro="17" ibroc="2" ib="2" sk="2" cap="0" sg="0" tt="6" ht="1" jno="40" id="1" pe="1" />
+         <player name="B Mcallum" batAvg="70" battingHand="R" isBowler="0" isCaptain="1" pid="3" hd="4" hr="48" hrc="2" bm="31" bmc="2" ibro="5" ibroc="2" ib="2" sk="2" cap="0" sg="0" tt="6" ht="0.97" jno="68" id="2" pe="1" />
+         <player name="R Hasane" batAvg="70" battingHand="R" isBowler="0" pid="4" hd="0" hr="1" hrc="2" bm="29" bmc="2" ibro="5" ibroc="2" ib="2" sk="3" cap="0" sg="0" tt="6" ht="0.94" jno="14" id="3" pe="1" />
+         <player name="C Lynne" batAvg="60" battingHand="R" isBowler="0" pid="5" hd="6" hr="2" hrc="1" bm="5" bmc="1" ibro="21" ibroc="1" ib="2" sk="2" cap="0" sg="0" tt="6" ht="1.05" jno="49" id="4" pe="1" />
+         <player name="B Asief" batAvg="55" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="1" pid="6" hd="4" hr="24" hrc="0" bm="23" bmc="0" ibro="5" ibroc="0" ib="5" sk="3" cap="0" sg="0" tt="4" ht="0.94" jno="66" id="5" pe="1" />
+         <player name="A Yamien" batAvg="40" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="2" pid="7" hd="4" hr="28" hrc="0" bm="21" bmc="0" ibro="5" ibroc="0" ib="2" sk="2" cap="0" sg="0" tt="5" ht="0.9" jno="52" id="6" pe="1" />
+         <player name="B Bhatei" batAvg="40" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="3" pid="8" hd="0" hr="24" hrc="2" bm="40" bmc="2" ibro="5" ibroc="2" ib="5" sk="3" cap="0" sg="0" tt="1" ht="1" jno="9" id="7" pe="1" />
+         <player name="S Kaahn" batAvg="35" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="4" pid="9" hd="2" hr="28" hrc="2" bm="6" bmc="2" ibro="21" ibroc="2" ib="5" sk="3" cap="0" sg="0" tt="5" ht="1" jno="30" id="8" pe="1" />
+         <player name="Y Shaah" batAvg="35" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="5" pid="10" hd="4" hr="45" hrc="1" bm="40" bmc="1" ibro="1" ibroc="1" ib="3" sk="2" cap="0" sg="0" tt="7" ht="1" jno="16" id="9" pe="1" />
+         <player name="M Rahmane" batAvg="30" battingHand="L" isBowler="1" bowlAvg="65" bowlingHand="L" bowlingStyle="Left-arm fast" bowlingType="0" bowlingOrder="6" pid="11" hd="0" hr="45" hrc="1" bm="5" bmc="1" ibro="5" ibroc="1" ib="5" sk="3" cap="0" sg="0" tt="7" ht="0.94" jno="94" id="10" pe="1" />
+				</PlayerDetails>
+			</team>
+
+			<team name="Peshawar Jawaans" abbrevation="PWR" ranking="4">
+				<PlayerDetails>
+				   <player name="K Akmaul" batAvg="70" battingHand="R" isBowler="0" isKeeper="1" pid="1" hd="2" hr="16" hrc="1" bm="39" bmc="1" ibro="20" ibroc="1" ib="5" sk="3" cap="0" sg="0" tt="3" ht="1.05" jno="27" id="0" pe="1" />
+         <player name="M Hafeiz" batAvg="65" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="1" pid="2" hd="6" hr="1" hrc="1" bm="19" bmc="1" ibro="20" ibroc="1" ib="1" sk="2" cap="0" sg="0" tt="0" ht="1" jno="82" id="1" pe="1" />
+         <player name="H Sohaile" batAvg="60" battingHand="L" isBowler="0" pid="3" hd="6" hr="1" hrc="1" bm="31" bmc="1" ibro="17" ibroc="1" ib="5" sk="3" cap="0" sg="0" tt="3" ht="0.94" jno="86" id="2" pe="1" />
+         <player name="D Sammiy" batAvg="60" battingHand="R" isBowler="1" isCaptain="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="2" pid="4" hd="4" hr="16" hrc="2" bm="1" bmc="2" ibro="17" ibroc="2" ib="5" sk="3" cap="0" sg="0" tt="0" ht="0.97" jno="50" id="3" pe="1" />
+         <player name="T Iqbaul" batAvg="65" battingHand="L" isBowler="0" pid="5" hd="4" hr="45" hrc="1" bm="37" bmc="1" ibro="20" ibroc="1" ib="3" sk="3" cap="0" sg="0" tt="3" ht="1" jno="43" id="4" pe="1" />
+         <player name="H Azame" batAvg="60" battingHand="R" isBowler="0" pid="6" hd="0" hr="1" hrc="0" bm="21" bmc="0" ibro="18" ibroc="0" ib="2" sk="2" cap="0" sg="0" tt="5" ht="1.05" jno="4" id="5" pe="1" />
+         <player name="D Bravou" batAvg="65" battingHand="L" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="3" pid="7" hd="2" hr="29" hrc="1" bm="6" bmc="1" ibro="16" ibroc="1" ib="5" sk="3" cap="0" sg="0" tt="0" ht="0.94" jno="91" id="6" pe="1" />
+         <player name="S AlHasaun" batAvg="65" battingHand="L" isBowler="1" bowlAvg="65" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="4" pid="8" hd="0" hr="16" hrc="1" bm="21" bmc="1" ibro="21" ibroc="1" ib="5" sk="3" cap="0" sg="0" tt="0" ht="1.05" jno="70" id="7" pe="1" />
+         <player name="W Riazz" batAvg="30" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="L" bowlingStyle="Left-arm fast" bowlingType="0" pid="9" hd="6" hr="16" hrc="1" bm="40" bmc="1" ibro="5" ibroc="1" ib="5" sk="2" cap="0" sg="0" tt="7" ht="1" jno="7" id="8" pe="1" />
+         <player name="M Asghaur" batAvg="30" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="5" pid="10" hd="6" hr="28" hrc="0" bm="21" bmc="0" ibro="5" ibroc="0" ib="5" sk="2" cap="0" sg="0" tt="6" ht="0.97" jno="47" id="9" pe="1" />
+         <player name="A Fletchar" batAvg="65" battingHand="R" isBowler="0" pid="11" hd="4" hr="24" hrc="2" bm="21" bmc="2" ibro="21" ibroc="2" ib="1" sk="2" cap="0" sg="0" tt="2" ht="0.94" jno="84" id="10" pe="1" />
+				</PlayerDetails>
+			</team>
+			<team name="Quetta Conquerors" abbrevation="QTA" ranking="5">
+				<PlayerDetails>
+				   <player name="S Ahmead" batAvg="65" battingHand="R" isBowler="0" isCaptain="1" isKeeper="1" pid="1" hd="0" hr="45" hrc="1" bm="5" bmc="1" ibro="11" ibroc="1" ib="5" sk="3" cap="0" sg="0" tt="6" ht="0.97" jno="19" id="0" pe="1" />
+         <player name="A Alie" batAvg="35" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="1" pid="2" hd="0" hr="29" hrc="1" bm="1" bmc="1" ibro="11" ibroc="1" ib="5" sk="2" cap="0" sg="0" tt="7" ht="0.94" jno="63" id="1" pe="1" />
+         <player name="R Rosouwe" batAvg="65" battingHand="L" isBowler="0" pid="3" hd="2" hr="24" hrc="2" bm="19" bmc="2" ibro="16" ibroc="2" ib="1" sk="2" cap="0" sg="0" tt="5" ht="0.97" jno="47" id="2" pe="1" />
+         <player name="A Shafiqe" batAvg="65" battingHand="R" isBowler="0" pid="4" hd="2" hr="24" hrc="1" bm="5" bmc="1" ibro="16" ibroc="1" ib="2" sk="2" cap="0" sg="0" tt="5" ht="1.05" jno="20" id="3" pe="1" />
+         <player name="M Nawaze" batAvg="40" battingHand="L" isBowler="1" bowlAvg="60" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="2" pid="5" hd="4" hr="28" hrc="2" bm="40" bmc="2" ibro="20" ibroc="2" ib="2" sk="2" cap="0" sg="0" tt="5" ht="1.05" jno="4" id="4" pe="1" />
+         <player name="H Khane" batAvg="35" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="3" pid="6" hd="2" hr="49" hrc="1" bm="37" bmc="1" ibro="18" ibroc="1" ib="2" sk="3" cap="0" sg="0" tt="2" ht="0.94" jno="11" id="5" pe="1" />
+         <player name="K Pieterson" batAvg="70" battingHand="R" isBowler="0" pid="7" hd="0" hr="1" hrc="2" bm="31" bmc="2" ibro="5" ibroc="2" ib="1" sk="3" cap="0" sg="0" tt="3" ht="0.94" jno="39" id="6" pe="1" />
+         <player name="M Hamzha" batAvg="45" battingHand="L" isBowler="1" bowlAvg="60" bowlingHand="L" bowlingStyle="Left-arm medium" bowlingType="3" bowlingOrder="4" pid="8" hd="6" hr="49" hrc="1" bm="39" bmc="1" ibro="21" ibroc="1" ib="2" sk="2" cap="0" sg="0" tt="5" ht="0.97" jno="80" id="7" pe="1" />
+         <player name="U Amien" batAvg="60" battingHand="L" isBowler="0" pid="9" hd="0" hr="16" hrc="2" bm="6" bmc="2" ibro="18" ibroc="2" ib="2" sk="3" cap="0" sg="0" tt="7" ht="0.97" jno="8" id="8" pe="1" />
+         <player name="R Alie" batAvg="30" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="L" bowlingStyle="Left-arm medium" bowlingType="3" bowlingOrder="5" pid="10" hd="2" hr="24" hrc="0" bm="39" bmc="0" ibro="21" ibroc="0" ib="5" sk="2" cap="0" sg="0" tt="4" ht="0.94" jno="15" id="9" pe="1" />
+         <player name="S Watsoun" batAvg="70" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="6" pid="11" hd="0" hr="48" hrc="2" bm="5" bmc="2" ibro="21" ibroc="2" ib="2" sk="3" cap="0" sg="0" tt="5" ht="1" jno="56" id="10" pe="1" />
+				</PlayerDetails>
+			</team>
+		</League>
+	</schedule>
+</cricket>

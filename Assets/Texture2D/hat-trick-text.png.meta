@@ -1,0 +1,228 @@
+fileFormatVersion: 2
+guid: 368c109bec8f20644b7ae9e6f67327f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: hat-trick-text
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 13
+  maxTextureSize: 512
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 56.27705
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hat-trick-text
+      rect:
+        serializedVersion: 2
+        x: 4.026751
+        y: 0.0761205
+        width: 498.9603
+        height: 125.8478
+      alignment: 9
+      pivot: {x: 0.504554, y: 0.5158922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -218.7277, y: -60}
+        - {x: -249.7277, y: -38}
+        - {x: -249.7277, y: -9}
+        - {x: -223.7277, y: 59}
+        - {x: -128.7277, y: 56}
+        - {x: -122.7277, y: 62}
+        - {x: -60.72772, y: 63}
+        - {x: 25.27228, y: 63}
+        - {x: 80.27228, y: 50}
+        - {x: 153.2723, y: 61}
+        - {x: 238.2723, y: 61}
+        - {x: 249.2723, y: 45}
+        - {x: 249.2723, y: 15}
+        - {x: 237.2723, y: -12}
+        - {x: 249.2723, y: -48}
+        - {x: 249.2723, y: -63}
+        - {x: -5.727722, y: -63}
+        - {x: -21.72772, y: -60}
+        - {x: -63.72772, y: -21}
+        - {x: -69.72772, y: -62}
+      physicsShape:
+      - - {x: 184.2723, y: -20}
+        - {x: 190.2723, y: -32}
+        - {x: 200.2723, y: -48}
+        - {x: 234.2723, y: -48}
+        - {x: 235.2723, y: -44}
+        - {x: 235.2723, y: -30}
+        - {x: 211.2723, y: 3}
+        - {x: 219.2723, y: 11}
+        - {x: 235.2723, y: 32}
+        - {x: 235.2723, y: 46}
+        - {x: 233.2723, y: 47}
+        - {x: 203.2723, y: 47}
+        - {x: 184.2723, y: 25}
+        - {x: 183.2723, y: 41}
+        - {x: 180.2723, y: 45}
+        - {x: 118.2723, y: 45}
+        - {x: 111.2723, y: 42}
+        - {x: 102.2723, y: 38}
+        - {x: 92.27228, y: 41}
+        - {x: 84.27228, y: 45}
+        - {x: 66.27228, y: 42}
+        - {x: 62.27229, y: 38}
+        - {x: 58.27228, y: 23}
+        - {x: 55.27228, y: 33}
+        - {x: 38.27228, y: 44}
+        - {x: 22.27228, y: 62.00001}
+        - {x: -29.72772, y: 62.00001}
+        - {x: -46.72772, y: 60}
+        - {x: -49.72773, y: 58}
+        - {x: -61.72772, y: 61}
+        - {x: -119.7277, y: 61}
+        - {x: -126.7277, y: 58}
+        - {x: -131.7277, y: 38}
+        - {x: -159.7277, y: 54}
+        - {x: -183.7277, y: 55}
+        - {x: -186.7277, y: 52}
+        - {x: -220.7277, y: 54}
+        - {x: -223.7277, y: 51}
+        - {x: -240.7277, y: 3}
+        - {x: -248.7277, y: -25}
+        - {x: -248.7277, y: -29}
+        - {x: -229.7277, y: -40}
+        - {x: -208.7277, y: -40}
+        - {x: -204.7277, y: -34}
+        - {x: -191.7277, y: -40}
+        - {x: -176.7277, y: -43}
+        - {x: -153.7277, y: -40}
+        - {x: -142.7277, y: -35}
+        - {x: -134.7277, y: -39}
+        - {x: -113.7277, y: -41}
+        - {x: -87.72772, y: -43}
+        - {x: -82.72773, y: -31}
+        - {x: -76.72773, y: -5}
+        - {x: -70.72772, y: -12}
+        - {x: -44.72773, y: -12}
+        - {x: -48.72773, y: -34}
+        - {x: -31.72772, y: -46}
+        - {x: 13.27228, y: -46}
+        - {x: 23.27228, y: -42}
+        - {x: 22.27228, y: -31}
+        - {x: 36.27228, y: -46}
+        - {x: 86.27228, y: -46}
+        - {x: 87.27229, y: -43}
+        - {x: 89.27229, y: -31}
+        - {x: 96.27229, y: -43}
+        - {x: 111.2723, y: -48}
+        - {x: 151.2723, y: -48}
+        - {x: 174.2723, y: -47}
+        - {x: 178.2723, y: -47}
+        - {x: 182.2723, y: -42}
+      - - {x: 56.27228, y: -6}
+        - {x: 55.27228, y: -7}
+        - {x: 54.27228, y: -16}
+        - {x: 54.27228, y: -24}
+        - {x: 55.27228, y: -24}
+      - - {x: 150.2723, y: -12}
+        - {x: 148.2723, y: -9.000001}
+        - {x: 147.2723, y: 5}
+        - {x: 151.2723, y: 9}
+        - {x: 150.2723, y: 10}
+        - {x: 150.2723, y: -17}
+        - {x: 151.2723, y: -16}
+      - - {x: -55.72772, y: 21}
+        - {x: -49.72773, y: 28}
+        - {x: -40.72773, y: 21}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01baca47eb4468fa6a86efa0b4021b9
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hat-trick-text: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

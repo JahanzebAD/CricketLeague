@@ -1,0 +1,247 @@
+<cricket>
+	<schedule>
+		<League>
+			<team name="Afghanistan" abbrevation="AFG" ranking="14">
+				<PlayerDetails>
+				    <player name="M Shezad" battingHand="R" isKeeper="1"  battingSkill = "50" />
+                    <player name="U Gane"  battingHand="R"  battingSkill = "50" />
+                    <player name="A Stanezkai" battingHand="R" isCaptain="1"  battingSkill = "50" />
+                    <player name="K Satik" battingHand="L" battingSkill = "50" />
+                    <player name="G Naipe" battingHand="R"  bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="5" battingSkill = "50" />
+                    <player name="M Nabe" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1"  bowlingOrder="6" battingSkill = "50" />
+                    <player name="N Zadren" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="7" battingSkill = "50" />
+                    <player name="S Senwari" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm legbreak" bowlingType="2" bowlingOrder="4" battingSkill = "50" />
+                   <player name="D Zadren" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0"  bowlingOrder="3" battingSkill = "50" />
+                   <player name="S Zadren" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm medium " bowlingType="3" bowlingOrder="2"  battingSkill = "50" />
+                   <player name="A Humza" battingHand="R" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1"  bowlingOrder="1" battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+			<team name="Australia" abbrevation="AUS" ranking="4">
+				<PlayerDetails>
+				    <player name="D Warnar" battingHand="L"   battingSkill = "50" />
+                    <player name="A Fench" battingHand="R"   battingSkill = "50" />
+                    <player name="U Khaweja" battingHand="L"  battingSkill = "50" />
+                    <player name="S Smeth" battingHand="R" isCaptain="1"   battingSkill = "50" />
+                    <player name="G Beiley" battingHand="R"  battingSkill = "50" />
+                    <player name="M Mersh" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="5" battingSkill = "50" />
+                    <player name="M Wede" battingHand="L" isKeeper="1" battingSkill = "50" />
+                    <player name="J Hastengs" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="4" battingSkill = "50" />
+                    <player name="M Sterc" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm fast" bowlingType="0" bowlingOrder="3" battingSkill = "50" />
+                    <player name="S Bolend" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3"  bowlingOrder="2" battingSkill = "50" />
+                    <player name="A Zempa" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm legbreak" bowlingType="2" bowlingOrder="1"  battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+			<team name="Bangladesh" abbrevation="BAN" ranking="9">
+				<PlayerDetails>
+				    <player name="T Iqbel" battingHand="L"  battingSkill = "50" />
+                    <player name="I Kayas" battingHand="L"  battingSkill = "50" />
+                    <player name="S Rehman" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm legbreak" bowlingType="2" bowlingOrder="6" battingSkill = "50" />
+                    <player name="M Mamudulla" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="7" battingSkill = "50" />
+                    <player name="M Rahem" battingHand="R" isKeeper="1" battingSkill = "50" />
+                    <player name="S Alhesan" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="5"  battingSkill = "50" />
+                    <player name="S Sarker" battingHand="L"  battingSkill = "50" />
+                    <player name="M Morteza" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" isCaptain="1" bowlingOrder="4"  battingSkill = "50" />
+                    <player name="M Hossein" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="3"  battingSkill = "50" />
+                    <player name="M Rehmen" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm Fast" bowlingType="0" bowlingOrder="2" battingSkill = "50" />
+                    <player name="T Ahmed" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="1"  battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+			<team name="England" abbrevation="ENG" ranking="1">
+				<PlayerDetails>
+				    <player name="J Roi" battingHand="R"  battingSkill = "50" />
+                    <player name="A Hals" battingHand="R"   battingSkill = "50" />
+                    <player name="J Roet" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1"  bowlingOrder="6" battingSkill = "50" />
+                    <player name="E Morgen" battingHand="L" isCaptain="1"  battingSkill = "50" />
+                    <player name="M Ale" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="7" battingSkill = "50" />
+                    <player name="B Stoks" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="5" battingSkill = "50" />
+                    <player name="J Butlar" battingHand="R" isKeeper="1"  battingSkill = "50" />
+                    <player name="C Woaks" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="4" battingSkill = "50" />
+                    <player name="A Rashed" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm legbreak" bowlingType="2" bowlingOrder="3" battingSkill = "50" />
+                    <player name="S Boerd" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm medium " bowlingType="3" bowlingOrder="2"  battingSkill = "50" />
+                    <player name="J Andersan" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="1" battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+			<team name="India" abbrevation="IND" ranking="3">
+				<PlayerDetails>
+				   <player name="A Rahene" battingHand="R"  battingSkill = "50" />
+                   <player name="R Sherma" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="6" battingSkill = "50" />
+                   <player name="V Koli" battingHand="R" isCaptain="1" battingSkill = "50" />
+                   <player name="M Panday" battingHand="R"  battingSkill = "50" />
+                   <player name="K Jadhev" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="7" battingSkill = "50" />
+                   <player name="MS Doni" battingHand="R" isKeeper="1"  battingSkill = "50" />
+                   <player name="H Pandea" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="5"  battingSkill = "50" />
+                   <player name="R Jadaja" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="4" battingSkill = "50" />
+                   <player name="R Aswin" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="3"  battingSkill = "50" />
+                   <player name="U Yadev" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="2" battingSkill = "50" />
+                   <player name="J Bumreh" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="1" battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+			<team name="Ireland" abbrevation="IRE" ranking="10">
+				<PlayerDetails>
+				   <player name="W Portifeld" battingHand="L" isCaptain="1"   battingSkill = "50" />
+                   <player name="P Sterleng" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="6" battingSkill = "50" />
+                   <player name="S Pointer" battingHand="R"  battingSkill = "50" />
+				   <player name="K Brean" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="7"  battingSkill = "50" />
+				   <player name="G Welsan" battingHand="R" isKeeper="1"  battingSkill = "50" />
+				   <player name="N Brean" battingHand="L"  battingSkill = "50" />
+				   <player name="A McBrain" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="5" battingSkill = "50" />
+				   <player name="M Sorinsan" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="4" battingSkill = "50" />
+				   <player name="T Murtak" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="3" battingSkill = "50" />
+				   <player name="C Youeng" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="2" battingSkill = "50" />
+				   <player name="B Renkan" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="1" battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+			<team name="Kenya" abbrevation="KEN" ranking="16">
+				<PlayerDetails>
+				     <player name="D Gundoria" battingHand="R" battingSkill = "50" />
+					 <player name="A Obondu" battingHand="R" battingSkill = "50" />
+					 <player name="I Karem" battingHand="R" isKeeper="1"  battingSkill = "50" />
+					 <player name="C Oboyea" battingHand="R" isCaptain="1"  battingSkill = "50" />
+					 <player name="N Odiambu" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="6" battingSkill = "50" />
+					 <player name="R Patiel" battingHand="R" battingSkill = "50" />
+					 <player name="G Sengh" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm legbreak" bowlingType="2" bowlingOrder="5" battingSkill = "50" />
+					 <player name="L Oluch" battingHand="R" bowlingHand="L" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="4" battingSkill = "50" />
+					 <player name="S Nguchi" battingHand="R" bowlingHand="L" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="3" battingSkill = "50" />
+					 <player name="H Vereiyea" battingHand="R" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="2"  battingSkill = "50" />
+					 <player name="E Otianuo" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="1" battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+			<team name="Netherland" abbrevation="NED" ranking="15">
+				<PlayerDetails>
+				     <player name="S Mybergh" battingHand="L"  battingSkill = "50" />
+					 <player name="R Vendamrw" battingHand="R" bowlingHand="L" bowlingStyle=" Left-arm orthodox" bowlingType="1" bowlingOrder="6" battingSkill = "50" />
+					 <player name="B Cuper" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="7" battingSkill = "50" />
+					 <player name="W Berasi" battingHand="R" isKeeper="1" battingSkill = "50" />
+					 <player name="P Boren" battingHand="R" isCaptain="1" battingSkill = "50" />
+					 <player name="M Oduwd" battingHand="R"  battingSkill = "50" />
+					 <player name="M Repuon" battingHand="R" bowlingHand="L" bowlingStyle="Left-arm offbreak" bowlingType="1" bowlingOrder="5" battingSkill = "50" />
+					 <player name="S Zulfekar" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="4" battingSkill = "50" />
+					 <player name="P Venmikeren" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="3" battingSkill = "50" />
+					 <player name="A Malek" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3"  bowlingOrder="2" battingSkill = "50" />
+					 <player name="V Kenguma" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="1" battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+			<team name="New Zealand" abbrevation="NZ" ranking="8">
+				<PlayerDetails>
+				     <player name="M Guptil" battingHand="R"  battingSkill = "50" />
+					 <player name="T Lathem" battingHand="L"  battingSkill = "50" />
+					 <player name="K Wiliamson" battingHand="R" isCaptain="1" battingSkill = "50" />
+					 <player name="R Taylar" battingHand="R"  battingSkill = "50" />
+					 <player name="C Andersan" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm medium" bowlingType="3" bowlingOrder="6" battingSkill = "50" />
+					 <player name="M Santnar" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="5" battingSkill = "50" />
+					 <player name="BJ Wetling" battingHand="R" isKeeper="1"  battingSkill = "50" />
+					 <player name="J Nesham" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm medium " bowlingType="3" bowlingOrder="4" battingSkill = "50" />
+					 <player name="I Sodi" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm legbreak" bowlingType="2" bowlingOrder="3" battingSkill = "50" />
+					 <player name="T Southe" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium " bowlingType="3" bowlingOrder="2" battingSkill = "50" />
+					 <player name="T Boulte" battingHand="R" bowlingHand="L" bowlingStyle="Left-arm fast" bowlingType="0" bowlingOrder="1" battingSkill = "50" />				
+				</PlayerDetails>
+			</team>
+			<team name="Pakistan" abbrevation="PAK" ranking="6">
+				<PlayerDetails>
+				     <player name="S Khen" battingHand="L"  battingSkill = "50" />
+					 <player name="A Ale" battingHand="R"  battingSkill = "50" />
+					 <player name="S Malek" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="1"  battingSkill = "50" />
+					 <player name="B Azem" battingHand="R"  battingSkill = "50" />
+					 <player name="U Akmel" battingHand="R" battingSkill = "50" />
+					 <player name="S Ahmad" battingHand="R" isKeeper="1" isCaptain="1"  battingSkill = "50" />
+					 <player name="M Nawez" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="2"  battingSkill = "50" />
+					 <player name="W Riez" battingHand="R" bowlingHand="L" bowlingStyle="Left-arm fast" bowlingType="0" bowlingOrder="3" battingSkill = "50" />
+					 <player name="Y Sheh" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm legspin" bowlingType="2"  bowlingOrder="4" battingSkill = "50" />
+					 <player name="S Khen" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="5" battingSkill = "50" />
+					 <player name="M Amer" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm fast" bowlingType="0" bowlingOrder="6" battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+			<team name="Scotland" abbrevation="SCO" ranking="13">
+				<PlayerDetails>
+				     <player name="K Coatzir" battingHand="R"  battingSkill = "50" />
+					 <player name="C Mecliod" battingHand="R"  battingSkill = "50" />
+					 <player name="M Crass" battingHand="R" isKeeper="1"  battingSkill = "50" />
+					 <player name="M Macen" battingHand="L"  battingSkill = "50" />
+					 <player name="P Momsin" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" isCaptain="1" bowlingOrder="6" battingSkill = "50" />
+					 <player name="R Berngtan" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="7" battingSkill = "50" />
+					 <player name="R Teylar" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm medium" bowlingType="3" bowlingOrder="5"  battingSkill = "50" />
+					 <player name="M Lesk" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="4" battingSkill = "50" />
+					 <player name="A Evens" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="3" battingSkill = "50" />
+					 <player name="S Serif"  battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="2" battingSkill = "50" />
+					 <player name="M Woatt" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="1" battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+			<team name="Sri Lanka" abbrevation="SL" ranking="5">
+				<PlayerDetails>
+				     <player name="D Deselva" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="1"  battingSkill = "50" />
+					 <player name="K Perara" battingHand="L"  battingSkill = "50" />
+					 <player name="N Dickwalla" battingHand="L" isKeeper="1"  battingSkill = "50" />
+					 <player name="K Mandis" battingHand="R"  battingSkill = "50" />
+					 <player name="U Tharenga" battingHand="L"  battingSkill = "50" />
+					 <player name="A Methews" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" isCaptain="1" bowlingOrder="2"  battingSkill = "50" />
+					 <player name="S Jeyasuriya" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="3"  battingSkill = "50" />
+					 <player name="S Pathirena" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="4" battingSkill = "50" />
+					 <player name="N Kulasekera" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="5" battingSkill = "50" />
+					 <player name="S Lakmel" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="6" battingSkill = "50" />
+					 <player name="N Pradep" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="7"  battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+			<team name="South Africa" abbrevation="RSA" ranking="2">
+				<PlayerDetails>
+				     <player name="H Amlaa" battingHand="R"  battingSkill = "50" />
+					 <player name="Q Decok" battingHand="L" isKeeper="1"  battingSkill = "50" />
+					 <player name="AB Devilars" battingHand="R" isCaptain="1"  battingSkill = "50" />
+					 <player name="F Duplasis" battingHand="R"  battingSkill = "50" />
+					 <player name="JP Dumini" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="4" battingSkill = "50" />
+					 <player name="R Rosouw" battingHand="L"  battingSkill = "50" />
+					 <player name="D Millar" battingHand="L"  battingSkill = "50" /> 
+					 <player name="K Rabeda" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="5" battingSkill = "50" />
+					 <player name="I Taher" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm legbreak" bowlingType="2" bowlingOrder="3" battingSkill = "50" />
+					 <player name="D Stayn" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="2"  battingSkill = "50" />
+					 <player name="M Morkal" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="1" battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+
+			<team name="UAE" abbrevation="UAE" ranking="11">
+				<PlayerDetails>
+				     <player name="R Mesthfa" battingHand="L"  battingSkill = "50" />
+					 <player name="L Sreekumar" battingHand="R"  battingSkill = "50" />
+					 <player name="S Anver" battingHand="R"  battingSkill = "50" />
+					 <player name="A Jevid" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" isCaptain="1" bowlingOrder="5" battingSkill = "50" />
+					 <player name="M Usmenn" battingHand="L"  battingSkill = "50" />
+					 <player name="M Shezaad" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="4" battingSkill = "50" />
+					 <player name="S Haider" battingHand="L" isKeeper="1"  battingSkill = "50" />
+					 <player name="A Resa" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm orthodox" bowlingType="1" bowlingOrder="3" battingSkill = "50" />
+					 <player name="R Shahzad" battingHand="R"  battingSkill = "50" />
+					 <player name="F Ahemad" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="2" battingSkill = "50" />
+					 <player name="M Naevid" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="1" battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+			<team name="West Indies" abbrevation="WI" ranking="7">
+				<PlayerDetails>
+				     <player name="K Brathweite" battingHand="R"  battingSkill = "50" />
+					 <player name="E Lewes" battingHand="L"  battingSkill = "50" />
+					 <player name="D Brevo" battingHand="L"  battingSkill = "50" />
+					 <player name="M Samuals" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="1" battingSkill = "50" />
+					 <player name="K Pollerd" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="2" battingSkill = "50" />
+					 <player name="D Ramden" battingHand="R" isKeeper="1"  battingSkill = "50" />
+					 <player name="S Gabrial" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="3" battingSkill = "50" />
+					 <player name="J Holdar" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" isCaptain="1" bowlingOrder="4"  battingSkill = "50" />
+					 <player name="S Nerine" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="5" battingSkill = "50" />
+					 <player name="A Josaph" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="6" battingSkill = "50" />
+					 <player name="S Ben" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="7" battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+			<team name="Zimbabwe" abbrevation="ZIM" ranking="12">
+				<PlayerDetails>
+				     <player name="C Chebhabha" battingHand="R"   battingSkill = "50" />
+					 <player name="B Cheri" battingHand="R"  battingSkill = "50" />
+					 <player name="S Reza" battingHand="R"  battingSkill = "50" />
+					 <player name="C Ervene" battingHand="L"  battingSkill = "50" />
+					 <player name="S Wiliams" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="1" battingSkill = "50" />
+					 <player name="E Chegumbura" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="2" battingSkill = "50" />
+					 <player name="P Mor" battingHand="R" isKeeper="1" battingSkill = "50" />
+					 <player name="G Cremar" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm legbreak" bowlingType="2" isCaptain="1" bowlingOrder="3" battingSkill = "50" />
+					 <player name="D Tiripeno" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="4" battingSkill = "50" />
+					 <player name="T Chesoro" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="5" battingSkill = "50" />
+					 <player name="C Mpefu" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="6" battingSkill = "50" />
+				</PlayerDetails>
+			</team>
+		</League>
+	</schedule>
+</cricket>

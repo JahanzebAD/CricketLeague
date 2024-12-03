@@ -1,0 +1,160 @@
+<cricket>
+	<schedule>
+		<League>
+			<team name="Bengaluru" abbrevation="BLR" ranking="2">
+				<PlayerDetails>
+				    <player name="M Vohera" battingHand="R"/>
+					<player name="B Mclulam" battingHand="R"/>
+					<player name="V Kohli" battingHand="R" isCaptain="1" />
+					<player name="A Divelers" battingHand="R" /> 
+					<player name="M Ale" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="5"/>
+					<player name="C Granhoam" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="4"/>
+					<player name="W Sunder" battingHand="L" />
+					<player name="P Patale" battingHand="L" isKeeper="1"/>			
+					<player name="N Naile" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="3"/>			
+					<player name="Y Chawhel" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="2"/>
+					<player name="M Seraj" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="1"/>			
+				</PlayerDetails>
+			</team>
+			<team name="Chandigarh" abbrevation="CHG" ranking="4">
+				<PlayerDetails>
+				    <player name="L Rahool" battingHand="R" isKeeper="1"/>
+					<player name="A Finceh" battingHand="R" isCaptain="1"/>
+					<player name="K Naeir" battingHand="R"/>
+					<player name="Y Sengh" battingHand="L"/>
+					<player name="M Tiwere" battingHand="R"/>
+					<player name="D Milere" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="1"/>
+					<player name="M Stoinis" battingHand="R"/>            
+					<player name="R Aswine" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="2"/>			
+					<player name="A Patale" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="3"/>
+					<player name="B Saren" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm medium" bowlingType="3" bowlingOrder="4"/>
+					<player name="M Shermah" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="5"/>			
+				</PlayerDetails>
+			</team>
+			<team name="Chennai" abbrevation="CHE" ranking="1">
+				<PlayerDetails>
+				    <player name="M Vijai" battingHand="R"/>
+					<player name="S Watsen" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="5"/>
+					<player name="S Raine" battingHand="L"/>
+					<player name="F Plesei" battingHand="R"/>
+					<player name="K Jadev" battingHand="R"/>
+					<player name="M Dohni" battingHand="R" isCaptain="1" isKeeper="1" />
+					<player name="D Bravoa" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="4"/>
+					<player name="R Jadaja" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="3"/>            
+					<player name="I Taihre" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="2"/>
+					<player name="S Takure" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="1"/>
+					<player name="L Nigedi" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="6"/>			
+				</PlayerDetails>
+			</team>
+
+			<team name="Delhi" abbrevation="DEL" ranking="8">
+				<PlayerDetails>
+				    <player name="J Roye" battingHand="R"/>
+					<player name="C Munrao" battingHand="L"/>
+					<player name="G Gambeir" battingHand="L" isCaptain="1"/>            
+					<player name="S Iyre" battingHand="R"/>
+					<player name="N Ojauh" battingHand="R" isKeeper="1"/>
+					<player name="G Maxewel" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="6"/>
+					<player name="J Yadev" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="5"/>
+					<player name="A Misrah" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="4"/>
+					<player name="S Goshe" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="3"/>
+					<player name="K Rabade" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="2"/>
+					<player name="H Patale" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="1"/>			
+				</PlayerDetails>
+			</team>
+			<team name="Hyderabad" abbrevation="HYD" ranking="7">
+				<PlayerDetails>
+				    <player name="D Warnar" battingHand="L" isCaptain="1"/>
+					<player name="K Wiliamsen" battingHand="R"/>
+					<player name="M Pandie" battingHand="R"/>            
+					<player name="B Sherma" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="1"/>
+					<player name="W Sahah" battingHand="R" isKeeper="1"/>
+					<player name="Y Pethan" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="2"/>
+					<player name="M Nabei" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="3"/>
+					<player name="C Brathweit" battingHand="R"/>
+					<player name="B Kumere" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="4"/>            
+					<player name="T Agrawal" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="5"/>
+					<player name="K Ahmead" battingHand="R" bowlingHand="L" bowlingStyle="Left-arm medium" bowlingType="3" bowlingOrder="6"/>			
+				</PlayerDetails>
+			</team>
+
+			<team name="Jaipur" abbrevation="JAI" ranking="5">
+				<PlayerDetails>
+				     <player name="A Rehene" battingHand="R"/>
+					<player name="S Semsan" battingHand="R" isKeeper="1"/>
+					<player name="R Tirpati" battingHand="R"/>
+					<player name="S Smeth" battingHand="R" isCaptain="1"/>
+					<player name="B Stoakes" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="6"/>
+					<player name="M Lamore" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="5"/>            
+					<player name="J Butller" battingHand="R"/>            
+					<player name="J Saxineh" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="4"/>
+					<player name="Z Khane" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm offbreak" bowlingType="1" bowlingOrder="3"/>
+					<player name="D Kulkrne" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="2"/>
+					<player name="S Goapal" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="1"/>			
+				</PlayerDetails>
+			</team>
+			<team name="Gujarat" abbrevation="GUJ" ranking="10">
+				<PlayerDetails>
+				     <player name="C Pajura" battingHand="R" />
+					 <player name="C Imgrame" battingHand="L" />
+					 <player name="A Mukand" battingHand="L" isCaptain="1" />
+					 <player name="I Kisen" battingHand="L" isKeeper="1" />
+					 <player name="D Semmay" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="1"/>
+					 <player name="J Faukneur" battingHand="R" bowlingHand="L" bowlingStyle="Left-arm medium" bowlingType="3" bowlingOrder="2"/>
+					 <player name="R Bathia" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="3"/>
+					 <player name="M Goni" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="4"/>
+					 <player name="P Kumer" battingHand="R" bowlingHand="R" bowlingStyle="Left-arm Medium" bowlingType="3" bowlingOrder="5"/>
+					 <player name="S Jaketi" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="6"/>
+					 <player name="I Soudhe" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="7"/>
+				</PlayerDetails>
+			</team>
+
+			<team name="Kolkata" abbrevation="KOL" ranking="3">
+				<PlayerDetails>
+				    <player name="S Gille" battingHand="R"/>
+					<player name="R Utapah" battingHand="R" />
+					<player name="C Lyene" battingHand="R" isCaptain="1"/>            
+					<player name="N Rane" battingHand="L"/>
+					<player name="A Rusele" battingHand="R"/>
+					<player name="D Kartheck" battingHand="R" isKeeper="1"/>
+					<player name="S Narene" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="1"/>
+					<player name="P Chawlah" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="2"/>            
+					<player name="M Stark" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm fast" bowlingType="0" bowlingOrder="3"/>
+					<player name="V Khumar" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="4"/>
+					<player name="S Mavei" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="5" />			
+				</PlayerDetails>
+			</team>
+			<team name="Mumbai" abbrevation="MUM" ranking="6">
+				<PlayerDetails>
+				    <player name="R Sherma" battingHand="R" isCaptain="1"/>
+					<player name="E Lewes" battingHand="L"/>
+					<player name="I Kishun" battingHand="L" />
+					<player name="J Dumeny" battingHand="L" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="1"/>
+					<player name="K Pandiye" battingHand="L"/>
+					<player name="H Pandiya" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="2"/>           
+					<player name="K Polarrd" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="3"/>
+					<player name="A Taire" battingHand="R" isKeeper="1"/>
+					<player name="B Cuteng" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="4"/>
+					<player name="S Lemba" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="5"/>            
+					<player name="J Bumreh" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3"  bowlingOrder="6"/>            
+				</PlayerDetails>
+			</team>
+			<team name="Pune" abbrevation="PUN" ranking="9">
+				<PlayerDetails>
+				    <player name="H Aumla" battingHand="R"/>
+					<player name="S Maurs" battingHand="L" isCaptain="1"/>
+					<player name="K Naier" battingHand="R" isKeeper="1"/>
+					<player name="A Mukand" battingHand="L"/>
+					<player name="I Jageie" battingHand="R"/>
+					<player name="T Despandiy" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="1"/>
+					<player name="C Andorsan" battingHand="L" bowlingHand="L" bowlingStyle="Left-arm medium" bowlingType="3" bowlingOrder="2"/>
+					<player name="A Christ" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="3"/>
+					<player name="K Vignaesh" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2"  bowlingOrder="4"/>
+					<player name="K Singhe" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="5"/>
+					<player name="L Melanga" battingHand="R" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="6"/>
+				</PlayerDetails>
+			</team>
+
+		</League>
+	</schedule>
+</cricket>

@@ -1,0 +1,74 @@
+<cricket>
+	<team name="Adelaide Blasters" abbr="ADL" ranking="6" id="0">
+	<match>5</match>
+	<match>4</match>
+	<match>3</match>
+	<match>6</match>
+	<match>7</match>
+	<match>2</match>
+	<match>1</match>
+	</team>
+	<team name="Brisbane Braves" abbr="BRS" ranking="1" id="1">
+	<match>5</match>
+	<match>6</match>
+	<match>4</match>
+	<match>2</match>
+	<match>7</match>
+	<match>3</match>
+	<match>0</match>
+	</team>
+	<team name="Hobart Howlers" abbr="HBT" ranking="4" id="2">
+	<match>3</match>
+	<match>7</match>
+	<match>5</match>
+	<match>1</match>
+	<match>6</match>
+	<match>4</match>
+	<match>0</match>
+	</team>
+	<team name="Melbourne Marauders" abbr="MLR" ranking="2" id="3">
+	<match>2</match>
+	<match>6</match>
+	<match>0</match>
+	<match>7</match>
+	<match>5</match>
+	<match>1</match>
+	<match>4</match>
+	</team>
+	<team name="Melbourne Smashers" abbr="MLS" ranking="7" id="4">
+	<match>7</match>
+	<match>5</match>
+	<match>1</match>
+	<match>0</match>
+	<match>2</match>
+	<match>3</match>
+	<match>6</match>
+	</team>
+	<team name="Perth Wolverines" abbr="PTH" ranking="5" id="5">
+	<match>0</match>
+	<match>1</match>
+	<match>4</match>
+	<match>2</match>
+	<match>7</match>
+	<match>3</match>
+	<match>6</match>
+	</team>
+	<team name="Sydney Roos" abbr="SYS" ranking="3" id="6">
+	<match>7</match>
+	<match>3</match>
+	<match>1</match>
+	<match>2</match>
+	<match>0</match>
+	<match>5</match>
+	<match>4</match>
+	</team>
+	<team name="Sydney Supremes" abbr="SYT" ranking="8" id="7">
+	<match>4</match>
+	<match>6</match>
+	<match>2</match>
+	<match>5</match>
+	<match>3</match>
+	<match>1</match>
+	<match>0</match>
+	</team>
+</cricket>

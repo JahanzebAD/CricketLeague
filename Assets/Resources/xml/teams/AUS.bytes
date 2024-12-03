@@ -1,0 +1,127 @@
+<cricket>
+	<schedule>
+		<League>
+			<team name="Adelaide Blasters" abbrevation="ADL" ranking="6">
+				<PlayerDetails>
+				 <player name="J Weaterald" batAvg="60" battingHand="L" isBowler="0" pid="1" hd="6" hr="16" hrc="2" bm="37" bmc="2" ibro="18" ibroc="2" ib="3" sk="2" cap="0" sg="0" tt="1" ht="0.94" jno="96" id="0" pe="1" />
+         <player name="T Heade" batAvg="60" battingHand="L" isBowler="0" isKeeper="1" isCaptain="1" pid="2" hd="4" hr="49" hrc="4" bm="37" bmc="4" ibro="11" ibroc="4" ib="3" sk="4" cap="0" sg="0" tt="0" ht="0.9" jno="38" id="1" pe="1" />
+         <player name="J Leheman" batAvg="60" battingHand="L" isBowler="0" pid="3" hd="4" hr="29" hrc="3" bm="1" bmc="3" ibro="5" ibroc="3" ib="1" sk="3" cap="0" sg="0" tt="0" ht="0.97" jno="84" id="2" pe="1" />
+         <player name="M Nesaer" batAvg="60" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="1" pid="4" hd="4" hr="29" hrc="2" bm="23" bmc="2" ibro="16" ibroc="2" ib="1" sk="4" cap="0" sg="0" tt="2" ht="1" jno="87" id="3" pe="1" />
+         <player name="B Duunk" batAvg="60" battingHand="L" isBowler="0" pid="5" hd="6" hr="2" hrc="2" bm="23" bmc="2" ibro="17" ibroc="2" ib="3" sk="3" cap="0" sg="0" tt="3" ht="0.97" jno="70" id="4" pe="1" />
+         <player name="J Welhs" batAvg="60" battingHand="R" isBowler="0" pid="6" hd="0" hr="29" hrc="4" bm="38" bmc="4" ibro="1" ibroc="4" ib="1" sk="4" cap="0" sg="0" tt="5" ht="1.05" jno="55" id="5" pe="1" />
+         <player name="A Caraey" batAvg="70" battingHand="L" isBowler="0" pid="7" hd="4" hr="49" hrc="3" bm="40" bmc="3" ibro="5" ibroc="3" ib="2" sk="2" cap="0" sg="0" tt="2" ht="0.94" jno="44" id="6" pe="1" />
+         <player name="K Smithe" batAvg="55" battingHand="R" isBowler="1" bowlAvg="55" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="2" pid="8" hd="6" hr="28" hrc="2" bm="29" bmc="2" ibro="11" ibroc="2" ib="2" sk="3" cap="0" sg="0" tt="0" ht="1.05" jno="90" id="7" pe="1" />
+         <player name="W Agaare" batAvg="30" battingHand="R" isBowler="1" bowlAvg="55" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="3" pid="9" hd="6" hr="49" hrc="4" bm="21" bmc="4" ibro="18" ibroc="4" ib="5" sk="4" cap="0" sg="0" tt="7" ht="0.9" jno="49" id="8" pe="1" />
+         <player name="B Stanlayk" batAvg="30" battingHand="L" isBowler="1" bowlAvg="55" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="4" pid="10" hd="6" hr="24" hrc="3" bm="21" bmc="3" ibro="20" ibroc="3" ib="3" sk="3" cap="0" sg="0" tt="4" ht="1" jno="3" id="9" pe="1" />
+         <player name="B Laughline" batAvg="35" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="5" pid="11" hd="6" hr="48" hrc="3" bm="40" bmc="3" ibro="11" ibroc="3" ib="3" sk="4" cap="0" sg="0" tt="0" ht="1.05" jno="32" id="10" pe="1" />
+				</PlayerDetails>
+			</team>
+			<team name="Brisbane Braves" abbrevation="BRS" ranking="1">
+				<PlayerDetails>
+				     <player name="B Mcullam" batAvg="70" battingHand="R" isBowler="0" isCaptain="1" pid="1" hd="6" hr="51" hrc="2" bm="5" bmc="2" ibro="5" ibroc="2" ib="5" sk="3" cap="0" sg="0" tt="4" ht="0.9" jno="5" id="0" pe="1" />
+         <player name="J Burnhs" batAvg="65" battingHand="R" isBowler="0" pid="2" hd="0" hr="29" hrc="4" bm="19" bmc="4" ibro="1" ibroc="4" ib="2" sk="2" cap="0" sg="0" tt="0" ht="1" jno="99" id="1" pe="1" />
+         <player name="B Cutingh" batAvg="30" battingHand="R" isBowler="1" bowlAvg="55" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="1" pid="3" hd="4" hr="16" hrc="3" bm="23" bmc="3" ibro="11" ibroc="3" ib="5" sk="3" cap="0" sg="0" tt="0" ht="0.94" jno="26" id="2" pe="1" />
+         <player name="J Florous" batAvg="55" battingHand="L" isBowler="1" bowlAvg="55" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="2" pid="4" hd="4" hr="16" hrc="4" bm="39" bmc="4" ibro="20" ibroc="4" ib="5" sk="2" cap="0" sg="0" tt="3" ht="0.97" jno="93" id="3" pe="1" />
+         <player name="K Polarde" batAvg="65" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="7" pid="5" hd="6" hr="29" hrc="3" bm="29" bmc="3" ibro="1" ibroc="3" ib="5" sk="3" cap="0" sg="0" tt="4" ht="0.97" jno="82" id="4" pe="1" />
+         <player name="C Lynne" batAvg="60" battingHand="R" isBowler="1" bowlAvg="50" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="3" pid="6" hd="2" hr="48" hrc="3" bm="29" bmc="3" ibro="21" ibroc="3" ib="1" sk="2" cap="0" sg="0" tt="0" ht="0.97" jno="20" id="5" pe="1" />
+         <player name="J Peirsan" batAvg="60" battingHand="R" isBowler="0" isKeeper="1" pid="7" hd="0" hr="1" hrc="2" bm="37" bmc="2" ibro="1" ibroc="2" ib="3" sk="2" cap="0" sg="0" tt="7" ht="0.94" jno="56" id="6" pe="1" />
+         <player name="S Heazlete" batAvg="60" battingHand="L" isBowler="0" pid="8" hd="6" hr="29" hrc="4" bm="29" bmc="4" ibro="11" ibroc="4" ib="5" sk="4" cap="0" sg="0" tt="4" ht="0.9" jno="92" id="7" pe="1" />
+         <player name="M Labshagnei" batAvg="60" battingHand="R" isBowler="0" pid="9" hd="4" hr="2" hrc="3" bm="37" bmc="3" ibro="5" ibroc="3" ib="1" sk="4" cap="0" sg="0" tt="1" ht="1" jno="75" id="8" pe="1" />
+         <player name="J Lalore" batAvg="60" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="L" bowlingStyle="Left-arm fast" bowlingType="0" bowlingOrder="5" pid="10" hd="6" hr="24" hrc="3" bm="1" bmc="3" ibro="17" ibroc="3" ib="1" sk="2" cap="0" sg="0" tt="3" ht="1.05" jno="79" id="9" pe="1" />
+         <player name="M Steketei" batAvg="30" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="4" pid="11" hd="6" hr="29" hrc="2" bm="1" bmc="2" ibro="16" ibroc="2" ib="3" sk="4" cap="0" sg="0" tt="7" ht="1" jno="62" id="10" pe="1" />
+				</PlayerDetails>
+			</team>
+			<team name="Hobart Howlers" abbrevation="HBT" ranking="4">
+				<PlayerDetails>
+				    <player name="T Painee" batAvg="60" battingHand="R" isBowler="0" isKeeper="1" pid="1" hd="0" hr="29" hrc="3" bm="40" bmc="3" ibro="21" ibroc="3" ib="1" sk="4" cap="0" sg="0" tt="2" ht="0.97" jno="20" id="0" pe="1" />
+         <player name="G Bailaey" batAvg="65" battingHand="R" isBowler="0" isCaptain="1" pid="2" hd="4" hr="29" hrc="2" bm="39" bmc="2" ibro="17" ibroc="2" ib="3" sk="4" cap="0" sg="0" tt="2" ht="1" jno="58" id="1" pe="1" />
+         <player name="S Milenkoe" batAvg="60" battingHand="R" isBowler="0" pid="3" hd="0" hr="51" hrc="4" bm="40" bmc="4" ibro="11" ibroc="4" ib="2" sk="2" cap="0" sg="0" tt="2" ht="0.9" jno="47" id="2" pe="1" />
+         <player name="H Kingstone" batAvg="60" battingHand="R" isBowler="0" pid="4" hd="4" hr="48" hrc="3" bm="38" bmc="3" ibro="17" ibroc="3" ib="2" sk="4" cap="0" sg="0" tt="5" ht="0.9" jno="98" id="3" pe="1" />
+         <player name="T Rorgers" batAvg="60" battingHand="R" isBowler="0" pid="5" hd="2" hr="48" hrc="4" bm="6" bmc="4" ibro="11" ibroc="4" ib="3" sk="2" cap="0" sg="0" tt="2" ht="0.97" jno="1" id="4" pe="1" />
+         <player name="B McDermoate" batAvg="55" battingHand="R" isBowler="0" pid="6" hd="2" hr="24" hrc="4" bm="5" bmc="4" ibro="11" ibroc="4" ib="1" sk="2" cap="0" sg="0" tt="5" ht="0.97" jno="45" id="5" pe="1" />
+         <player name="D Christein" batAvg="60" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="1" pid="7" hd="2" hr="28" hrc="2" bm="1" bmc="2" ibro="5" ibroc="2" ib="1" sk="4" cap="0" sg="0" tt="7" ht="1" jno="32" id="6" pe="1" />
+         <player name="B Webtsser" batAvg="55" battingHand="R" isBowler="1" bowlAvg="55" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="2" pid="8" hd="4" hr="1" hrc="4" bm="6" bmc="4" ibro="21" ibroc="4" ib="2" sk="3" cap="0" sg="0" tt="2" ht="0.97" jno="41" id="7" pe="1" />
+         <player name="S Rainberd" batAvg="35" battingHand="R" isBowler="1" bowlAvg="55" bowlingHand="L" bowlingStyle="Left-arm medium" bowlingType="3" bowlingOrder="3" pid="9" hd="4" hr="45" hrc="3" bm="40" bmc="3" ibro="18" ibroc="3" ib="3" sk="3" cap="0" sg="0" tt="7" ht="1" jno="15" id="8" pe="1" />
+         <player name="C Boyche" batAvg="35" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="4" pid="10" hd="4" hr="24" hrc="3" bm="29" bmc="3" ibro="17" ibroc="3" ib="1" sk="4" cap="0" sg="0" tt="4" ht="0.97" jno="28" id="9" pe="1" />
+         <player name="C Rohse" batAvg="30" battingHand="R" isBowler="1" bowlAvg="55" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="5" pid="11" hd="2" hr="16" hrc="4" bm="39" bmc="4" ibro="17" ibroc="4" ib="5" sk="3" cap="0" sg="0" tt="1" ht="0.94" jno="3" id="10" pe="1" />
+				</PlayerDetails>
+			</team>
+
+			<team name="Melbourne Marauders" abbrevation="MLR" ranking="2">
+				<PlayerDetails>
+				   <player name="A Finche" batAvg="65" battingHand="R" isBowler="0" isCaptain="1" pid="1" hd="2" hr="2" hrc="4" bm="23" bmc="4" ibro="16" ibroc="4" ib="2" sk="2" cap="0" sg="0" tt="5" ht="0.9" jno="5" id="0" pe="1" />
+         <player name="D Bravoe" batAvg="65" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="1" pid="2" hd="2" hr="45" hrc="4" bm="23" bmc="4" ibro="11" ibroc="4" ib="3" sk="4" cap="0" sg="0" tt="2" ht="1.05" jno="30" id="1" pe="1" />
+         <player name="T Copere" batAvg="60" battingHand="R" isBowler="0" pid="3" hd="4" hr="2" hrc="2" bm="31" bmc="2" ibro="5" ibroc="2" ib="5" sk="2" cap="0" sg="0" tt="1" ht="0.97" jno="40" id="2" pe="1" />
+         <player name="M Harise" batAvg="60" battingHand="L" isBowler="0" pid="4" hd="4" hr="29" hrc="2" bm="37" bmc="2" ibro="1" ibroc="2" ib="3" sk="2" cap="0" sg="0" tt="0" ht="0.97" jno="7" id="3" pe="1" />
+         <player name="C Whaite" batAvg="70" battingHand="R" isBowler="1" bowlAvg="55" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="2" pid="5" hd="4" hr="45" hrc="2" bm="37" bmc="2" ibro="1" ibroc="2" ib="1" sk="2" cap="0" sg="0" tt="7" ht="0.9" jno="95" id="4" pe="1" />
+         <player name="M Waide" batAvg="70" battingHand="L" isBowler="0" isKeeper="1" pid="6" hd="0" hr="49" hrc="2" bm="23" bmc="2" ibro="18" ibroc="2" ib="2" sk="2" cap="0" sg="0" tt="7" ht="1" jno="21" id="5" pe="1" />
+         <player name="M Shorgt" batAvg="60" battingHand="R" isBowler="0" pid="7" hd="6" hr="24" hrc="3" bm="40" bmc="3" ibro="18" ibroc="3" ib="2" sk="4" cap="0" sg="0" tt="3" ht="1.05" jno="11" id="6" pe="1" />
+         <player name="B Hogh" batAvg="35" battingHand="L" isBowler="1" bowlAvg="65" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="3" pid="8" hd="2" hr="48" hrc="3" bm="1" bmc="3" ibro="5" ibroc="3" ib="2" sk="2" cap="0" sg="0" tt="6" ht="1.05" jno="17" id="7" pe="1" />
+         <player name="S Narian" batAvg="40" battingHand="L" isBowler="1" bowlAvg="70" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="4" pid="9" hd="0" hr="28" hrc="4" bm="6" bmc="4" ibro="16" ibroc="4" ib="2" sk="2" cap="0" sg="0" tt="1" ht="0.94" jno="27" id="8" pe="1" />
+         <player name="J Patinsone" batAvg="30" battingHand="L" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="5" pid="10" hd="6" hr="29" hrc="3" bm="6" bmc="3" ibro="18" ibroc="3" ib="5" sk="3" cap="0" sg="0" tt="2" ht="1" jno="71" id="9" pe="1" />
+         <player name="C Tremeain" batAvg="35" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="6" pid="11" hd="4" hr="29" hrc="3" bm="29" bmc="3" ibro="20" ibroc="3" ib="5" sk="2" cap="0" sg="0" tt="5" ht="0.94" jno="74" id="10" pe="1" />
+				</PlayerDetails>
+			</team>
+			<team name="Melbourne Smashers" abbrevation="MLS" ranking="7">
+				<PlayerDetails>
+				    <player name="K Pietorsen" batAvg="70" battingHand="R" isBowler="0" pid="1" hd="2" hr="1" hrc="4" bm="29" bmc="4" ibro="5" ibroc="4" ib="5" sk="3" cap="0" sg="0" tt="6" ht="1.05" jno="44" id="0" pe="1" />
+         <player name="L Righte" batAvg="65" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="2" pid="2" hd="4" hr="1" hrc="2" bm="21" bmc="2" ibro="18" ibroc="2" ib="1" sk="2" cap="0" sg="0" tt="4" ht="0.97" jno="33" id="1" pe="1" />
+         <player name="R Quinhey" batAvg="60" battingHand="L" isBowler="0" pid="3" hd="2" hr="16" hrc="3" bm="31" bmc="3" ibro="16" ibroc="3" ib="5" sk="3" cap="0" sg="0" tt="3" ht="1.05" jno="14" id="2" pe="1" />
+         <player name="E Gleubis" batAvg="60" battingHand="R" isBowler="0" pid="4" hd="0" hr="2" hrc="3" bm="31" bmc="3" ibro="18" ibroc="3" ib="3" sk="4" cap="0" sg="0" tt="3" ht="0.97" jno="64" id="3" pe="1" />
+         <player name="P Handscomb" batAvg="55" battingHand="R" isBowler="0" isKeeper="1" pid="5" hd="6" hr="24" hrc="4" bm="38" bmc="4" ibro="11" ibroc="4" ib="3" sk="4" cap="0" sg="0" tt="7" ht="0.94" jno="81" id="4" pe="1" />
+         <player name="G Maxwell" batAvg="65" battingHand="R" isBowler="0" pid="6" hd="0" hr="51" hrc="2" bm="21" bmc="2" ibro="20" ibroc="2" ib="1" sk="3" cap="0" sg="0" tt="2" ht="1.05" jno="75" id="5" pe="1" />
+         <player name="J Faulknere" batAvg="60" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="L" bowlingStyle="Left-arm medium" bowlingType="3" bowlingOrder="1" pid="7" hd="0" hr="28" hrc="3" bm="39" bmc="3" ibro="18" ibroc="3" ib="3" sk="2" cap="0" sg="0" tt="0" ht="0.94" jno="22" id="6" pe="1" />
+         <player name="M Stinois" batAvg="55" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="7" pid="8" hd="2" hr="1" hrc="4" bm="6" bmc="4" ibro="11" ibroc="4" ib="5" sk="2" cap="0" sg="0" tt="3" ht="0.94" jno="58" id="7" pe="1" />
+         <player name="J Hastengs" pid="9" battingHand="R" batAvg="35" isBowler="1" isCaptain="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlaction="0" hd="2" hr="48" hrc="2" bm="6" bmc="2" ibro="20" ibroc="2" ib="1" sk="3" cap="0" sg="0" tt="4" ht="0.97" jno="65" id="8" pe="1" />
+         <player name="M Beare" batAvg="30" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="5" pid="10" hd="0" hr="1" hrc="3" bm="19" bmc="3" ibro="20" ibroc="3" ib="5" sk="4" cap="0" sg="0" tt="6" ht="0.97" jno="13" id="9" pe="1" />
+         <player name="A Zampah" batAvg="30" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm Legbreak" bowlingType="2" bowlingOrder="3" pid="11" hd="6" hr="45" hrc="2" bm="21" bmc="2" ibro="5" ibroc="2" ib="2" sk="2" cap="0" sg="0" tt="7" ht="1" jno="42" id="10" pe="1" />
+				</PlayerDetails>
+			</team>
+			<team name="Perth Wolverines" abbrevation="PTH" ranking="5">
+				<PlayerDetails>
+				   <player name="M Marshe" batAvg="60" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="1" pid="1" hd="0" hr="16" hrc="4" bm="21" bmc="4" ibro="17" ibroc="4" ib="3" sk="3" cap="0" sg="0" tt="2" ht="1.05" jno="79" id="0" pe="1" />
+         <player name="S Marshe" batAvg="65" battingHand="L" isBowler="0" pid="2" hd="2" hr="45" hrc="4" bm="21" bmc="4" ibro="16" ibroc="4" ib="1" sk="3" cap="0" sg="0" tt="7" ht="1.05" jno="63" id="1" pe="1" />
+         <player name="A Vouges" batAvg="65" battingHand="R" isBowler="0" isCaptain="1" pid="3" hd="2" hr="29" hrc="2" bm="31" bmc="2" ibro="21" ibroc="2" ib="2" sk="4" cap="0" sg="0" tt="1" ht="1.05" jno="59" id="2" pe="1" />
+         <player name="C Bancrofte" batAvg="60" battingHand="R" isBowler="0" pid="4" hd="6" hr="45" hrc="2" bm="21" bmc="2" ibro="5" ibroc="2" ib="1" sk="3" cap="0" sg="0" tt="1" ht="1" jno="7" id="3" pe="1" />
+         <player name="A Turnare" batAvg="60" battingHand="R" isBowler="0" pid="5" hd="0" hr="45" hrc="4" bm="19" bmc="4" ibro="16" ibroc="4" ib="3" sk="3" cap="0" sg="0" tt="0" ht="0.94" jno="29" id="4" pe="1" />
+         <player name="J Behrendorf" batAvg="60" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="2" pid="6" hd="0" hr="48" hrc="4" bm="29" bmc="4" ibro="18" ibroc="4" ib="5" sk="3" cap="0" sg="0" tt="4" ht="1" jno="60" id="5" pe="1" />
+         <player name="M Klinguer" batAvg="60" battingHand="R" isBowler="0" pid="7" hd="2" hr="45" hrc="2" bm="40" bmc="2" ibro="18" ibroc="2" ib="1" sk="4" cap="0" sg="0" tt="6" ht="0.9" jno="36" id="6" pe="1" />
+         <player name="S Whitmane" batAvg="55" battingHand="L" isBowler="0" isKeeper="1" pid="8" hd="4" hr="16" hrc="4" bm="19" bmc="4" ibro="21" ibroc="4" ib="3" sk="2" cap="0" sg="0" tt="5" ht="0.97" jno="16" id="7" pe="1" />
+         <player name="A Agare" batAvg="55" battingHand="L" isBowler="1" bowlAvg="60" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="3" pid="9" hd="6" hr="2" hrc="4" bm="19" bmc="4" ibro="17" ibroc="4" ib="3" sk="2" cap="0" sg="0" tt="6" ht="1.05" jno="32" id="8" pe="1" />
+         <player name="NC Niele" batAvg="35" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="4" pid="10" hd="4" hr="28" hrc="3" bm="40" bmc="3" ibro="17" ibroc="3" ib="1" sk="2" cap="0" sg="0" tt="1" ht="1" jno="70" id="9" pe="1" />
+         <player name="D Wileye" batAvg="55" battingHand="L" isBowler="1" bowlAvg="60" bowlingHand="L" bowlingStyle="Left-arm medium" bowlingType="3" bowlingOrder="5" pid="11" hd="0" hr="24" hrc="3" bm="1" bmc="3" ibro="17" ibroc="3" ib="5" sk="4" cap="0" sg="0" tt="1" ht="1" jno="94" id="10" pe="1" />
+				</PlayerDetails>
+			</team>
+			<team name="Sydney Roos" abbrevation="SYS" ranking="3">
+				<PlayerDetails>
+				    <player name="N Madineson" batAvg="60" battingHand="L" isBowler="0" pid="1" hd="6" hr="24" hrc="4" bm="6" bmc="4" ibro="18" ibroc="4" ib="1" sk="3" cap="0" sg="0" tt="1" ht="1.05" jno="67" id="0" pe="1" />
+         <player name="M Henrieqeus" batAvg="60" battingHand="R" isBowler="1" isCaptain="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="1" pid="2" hd="6" hr="29" hrc="4" bm="39" bmc="4" ibro="17" ibroc="4" ib="1" sk="2" cap="0" sg="0" tt="6" ht="0.9" jno="38" id="1" pe="1" />
+         <player name="S Bilinngs" batAvg="60" battingHand="R" isBowler="0" pid="3" hd="4" hr="29" hrc="4" bm="38" bmc="4" ibro="5" ibroc="4" ib="3" sk="2" cap="0" sg="0" tt="0" ht="0.94" jno="7" id="2" pe="1" />
+         <player name="B Hadine" batAvg="65" battingHand="R" isBowler="0" isKeeper="1" pid="4" hd="4" hr="51" hrc="4" bm="40" bmc="4" ibro="21" ibroc="4" ib="3" sk="4" cap="0" sg="0" tt="5" ht="0.9" jno="77" id="3" pe="1" />
+         <player name="D Hughese" batAvg="60" battingHand="L" isBowler="0" pid="5" hd="4" hr="48" hrc="3" bm="29" bmc="3" ibro="16" ibroc="3" ib="1" sk="4" cap="0" sg="0" tt="2" ht="0.94" jno="47" id="4" pe="1" />
+         <player name="J Roye" batAvg="65" battingHand="R" isBowler="0" pid="6" hd="2" hr="49" hrc="4" bm="21" bmc="4" ibro="1" ibroc="4" ib="5" sk="2" cap="0" sg="0" tt="0" ht="0.97" jno="39" id="5" pe="1" />
+         <player name="J Bothea" batAvg="55" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="2" pid="7" hd="6" hr="49" hrc="2" bm="19" bmc="2" ibro="18" ibroc="2" ib="2" sk="2" cap="0" sg="0" tt="6" ht="0.9" jno="37" id="6" pe="1" />
+         <player name="B Dwarsihus" batAvg="55" battingHand="L" isBowler="1" bowlAvg="60" bowlingHand="L" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="3" pid="8" hd="4" hr="51" hrc="3" bm="19" bmc="3" ibro="5" ibroc="3" ib="3" sk="3" cap="0" sg="0" tt="2" ht="1" jno="55" id="7" pe="1" />
+         <player name="SO Kiefee" batAvg="45" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="L" bowlingStyle="Left-arm orthodox" bowlingType="1" bowlingOrder="4" pid="9" hd="4" hr="45" hrc="4" bm="37" bmc="4" ibro="21" ibroc="4" ib="5" sk="2" cap="0" sg="0" tt="5" ht="1" jno="40" id="8" pe="1" />
+         <player name="S Abotte" batAvg="35" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="5" pid="10" hd="2" hr="48" hrc="2" bm="21" bmc="2" ibro="20" ibroc="2" ib="3" sk="4" cap="0" sg="0" tt="3" ht="0.9" jno="84" id="9" pe="1" />
+         <player name="N Lyone" batAvg="30" battingHand="R" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="6" pid="11" hd="6" hr="16" hrc="2" bm="6" bmc="2" ibro="1" ibroc="2" ib="2" sk="4" cap="0" sg="0" tt="3" ht="0.97" jno="66" id="10" pe="1" />
+				</PlayerDetails>
+			</team>
+			<team name="Sydney Supremes" abbrevation="SYT" ranking="8">
+				<PlayerDetails>
+				    <player name="B Rohreri" batAvg="60" battingHand="L" isBowler="0" pid="1" hd="2" hr="49" hrc="2" bm="6" bmc="2" ibro="16" ibroc="2" ib="2" sk="2" cap="0" sg="0" tt="0" ht="1.05" jno="85" id="0" pe="1" />
+         <player name="K Patersone" batAvg="60" battingHand="L" isBowler="0" pid="2" hd="4" hr="16" hrc="3" bm="38" bmc="3" ibro="21" ibroc="3" ib="2" sk="3" cap="0" sg="0" tt="2" ht="0.94" jno="65" id="1" pe="1" />
+         <player name="R Gibsone" batAvg="60" battingHand="R" isBowler="0" pid="3" hd="6" hr="28" hrc="4" bm="39" bmc="4" ibro="18" ibroc="4" ib="2" sk="3" cap="0" sg="0" tt="0" ht="1.05" jno="43" id="2" pe="1" />
+         <player name="E Mhorgan" batAvg="70" battingHand="L" isBowler="0" pid="4" hd="2" hr="45" hrc="4" bm="21" bmc="4" ibro="17" ibroc="4" ib="2" sk="2" cap="0" sg="0" tt="0" ht="0.97" jno="44" id="3" pe="1" />
+         <player name="U Kawajha" batAvg="65" battingHand="L" isBowler="0" pid="5" hd="2" hr="29" hrc="4" bm="6" bmc="4" ibro="5" ibroc="4" ib="5" sk="4" cap="0" sg="0" tt="3" ht="0.97" jno="48" id="4" pe="1" />
+         <player name="S Whatsone" batAvg="65" battingHand="R" isBowler="1" isCaptain="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="1" pid="6" hd="2" hr="2" hrc="2" bm="6" bmc="2" ibro="16" ibroc="2" ib="5" sk="3" cap="0" sg="0" tt="6" ht="0.94" jno="30" id="5" pe="1" />
+         <player name="J Dorhan" batAvg="55" battingHand="L" isBowler="0" isKeeper="1" pid="7" hd="6" hr="29" hrc="2" bm="1" bmc="2" ibro="5" ibroc="2" ib="2" sk="2" cap="0" sg="0" tt="0" ht="0.9" jno="61" id="6" pe="1" />
+         <player name="C Ghreen" batAvg="55" battingHand="R" isBowler="1" bowlAvg="55" bowlingHand="R" bowlingStyle="Right-arm offbreak" bowlingType="1" bowlingOrder="2" pid="8" hd="2" hr="28" hrc="3" bm="5" bmc="3" ibro="18" ibroc="3" ib="3" sk="2" cap="0" sg="0" tt="5" ht="0.97" jno="11" id="7" pe="1" />
+         <player name="C McKaye" batAvg="35" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="3" pid="9" hd="0" hr="2" hrc="2" bm="31" bmc="2" ibro="11" ibroc="2" ib="2" sk="4" cap="0" sg="0" tt="4" ht="0.97" jno="55" id="8" pe="1" />
+         <player name="P Cuhmins" batAvg="35" battingHand="R" isBowler="1" bowlAvg="65" bowlingHand="R" bowlingStyle="Right-arm fast" bowlingType="0" bowlingOrder="4" pid="10" hd="2" hr="28" hrc="4" bm="23" bmc="4" ibro="16" ibroc="4" ib="5" sk="4" cap="0" sg="0" tt="4" ht="0.97" jno="54" id="9" pe="1" />
+         <player name="G Seandhu" batAvg="30" battingHand="L" isBowler="1" bowlAvg="60" bowlingHand="R" bowlingStyle="Right-arm medium" bowlingType="3" bowlingOrder="5" pid="11" hd="6" hr="29" hrc="2" bm="5" bmc="2" ibro="21" ibroc="2" ib="3" sk="2" cap="0" sg="0" tt="1" ht="1.05" jno="57" id="10" pe="1" />
+				</PlayerDetails>
+			</team>
+		</League>
+	</schedule>
+</cricket>
