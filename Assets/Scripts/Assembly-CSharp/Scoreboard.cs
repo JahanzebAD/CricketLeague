@@ -39,27 +39,27 @@ public class Scoreboard : Singleton<Scoreboard>
 
 	public Text StrikerName;
 
-	private string[] LevelDescriptionArray = new string[18]
-	{
-		LocalizationData.instance.getText(278),
-		LocalizationData.instance.getText(279),
-		LocalizationData.instance.getText(281),
-		LocalizationData.instance.getText(280),
-		LocalizationData.instance.getText(279),
-		LocalizationData.instance.getText(278),
-		LocalizationData.instance.getText(282),
-		LocalizationData.instance.getText(279),
-		LocalizationData.instance.getText(280),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527)
-	};
+	//private string[] LevelDescriptionArray = new string[18]
+	//{
+	//	LocalizationData.instance.getText(278),
+	//	LocalizationData.instance.getText(279),
+	//	LocalizationData.instance.getText(281),
+	//	LocalizationData.instance.getText(280),
+	//	LocalizationData.instance.getText(279),
+	//	LocalizationData.instance.getText(278),
+	//	LocalizationData.instance.getText(282),
+	//	LocalizationData.instance.getText(279),
+	//	LocalizationData.instance.getText(280),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527)
+	//};
 
 	public Text NonStrikerName;
 
@@ -139,11 +139,11 @@ public class Scoreboard : Singleton<Scoreboard>
 	{
 		if (CONTROLLER.SuperOverMode == "bat")
 		{
-			UpdateSOTabText(LevelDescriptionArray[(int)Mathf.Floor(CONTROLLER.LevelId / 2)]);
+			//UpdateSOTabText(LevelDescriptionArray[(int)Mathf.Floor(CONTROLLER.LevelId / 2)]);
 		}
 		else
 		{
-			UpdateSOTabText(LevelDescriptionArray[CONTROLLER.LevelId + 9]);
+			//UpdateSOTabText(LevelDescriptionArray[CONTROLLER.LevelId + 9]);
 		}
 	}
 
@@ -435,7 +435,7 @@ public class Scoreboard : Singleton<Scoreboard>
 
 	public void HideStrip(bool boolean)
 	{
-		UpdateStripText(CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].abbrevation + " Vs " + CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].abbrevation);
+		//UpdateStripText(CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].abbrevation + " Vs " + CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].abbrevation);
 		if (!boolean)
 		{
 			StripBG.SetActive(value: true);
@@ -466,12 +466,12 @@ public class Scoreboard : Singleton<Scoreboard>
 
 	public void NewOver()
 	{
-		CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].ballUpdate[0] = string.Empty;
-		CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].ballUpdate[1] = string.Empty;
-		CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].ballUpdate[2] = string.Empty;
-		CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].ballUpdate[3] = string.Empty;
-		CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].ballUpdate[4] = string.Empty;
-		CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].ballUpdate[5] = string.Empty;
+		//CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].ballUpdate[0] = string.Empty;
+		//CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].ballUpdate[1] = string.Empty;
+		//CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].ballUpdate[2] = string.Empty;
+		//CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].ballUpdate[3] = string.Empty;
+		//CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].ballUpdate[4] = string.Empty;
+		//CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].ballUpdate[5] = string.Empty;
 		Singleton<ScoreBoardBallList>.instance.ResetBallList();
 	}
 

@@ -38,7 +38,7 @@ public class BowlingScoreCard : Singleton<BowlingScoreCard>
 
 	private bool firstTimeHide;
 
-	private List<int> BowlersIndexArray;
+	private List<int> BowlersIndexArray = new List<int>();
 
 	private int firstSpellOver;
 
@@ -145,42 +145,42 @@ public class BowlingScoreCard : Singleton<BowlingScoreCard>
 
 	private void SetTeamInfo()
 	{
-		if (CONTROLLER.PlayModeSelected >= 8)
-		{
-			return;
-		}
-		if (CONTROLLER.currentInnings == 0)
-		{
-			Sprite[] flags = Singleton<FlagHolderGround>.instance.flags;
-			foreach (Sprite sprite in flags)
-			{
-				if (sprite.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].abbrevation)
-				{
-					SCTeamFlag.sprite = sprite;
-				}
-				if (sprite.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].abbrevation)
-				{
-					BtnTeamFlag.sprite = sprite;
-				}
-			}
-			SCTeamName.text = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName.ToUpper();
-			BtnTeamName.text = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName.ToUpper();
-			return;
-		}
-		Sprite[] flags2 = Singleton<FlagHolderGround>.instance.flags;
-		foreach (Sprite sprite2 in flags2)
-		{
-			if (sprite2.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].abbrevation)
-			{
-				SCTeamFlag.sprite = sprite2;
-			}
-			if (sprite2.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].abbrevation)
-			{
-				BtnTeamFlag.sprite = sprite2;
-			}
-		}
-		SCTeamName.text = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName.ToUpper();
-		BtnTeamName.text = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName.ToUpper();
+		//if (CONTROLLER.PlayModeSelected >= 8)
+		//{
+		//	return;
+		//}
+		//if (CONTROLLER.currentInnings == 0)
+		//{
+		//	Sprite[] flags = Singleton<FlagHolderGround>.instance.flags;
+		//	foreach (Sprite sprite in flags)
+		//	{
+		//		if (sprite.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].abbrevation)
+		//		{
+		//			SCTeamFlag.sprite = sprite;
+		//		}
+		//		if (sprite.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].abbrevation)
+		//		{
+		//			BtnTeamFlag.sprite = sprite;
+		//		}
+		//	}
+		//	SCTeamName.text = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName.ToUpper();
+		//	BtnTeamName.text = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName.ToUpper();
+		//	return;
+		//}
+		//Sprite[] flags2 = Singleton<FlagHolderGround>.instance.flags;
+		//foreach (Sprite sprite2 in flags2)
+		//{
+		//	if (sprite2.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].abbrevation)
+		//	{
+		//		SCTeamFlag.sprite = sprite2;
+		//	}
+		//	if (sprite2.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].abbrevation)
+		//	{
+		//		BtnTeamFlag.sprite = sprite2;
+		//	}
+		//}
+		//SCTeamName.text = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName.ToUpper();
+		//BtnTeamName.text = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName.ToUpper();
 	}
 
 	public void UpdateScoreCard()
@@ -262,21 +262,21 @@ public class BowlingScoreCard : Singleton<BowlingScoreCard>
 
 	private void GetBowlersInTeam(int TeamID)
 	{
-		if (CONTROLLER.PlayModeSelected >= 8)
-		{
-			return;
-		}
-		BowlersIndexArray = new List<int>();
-		int num = CONTROLLER.TeamList[TeamID].PlayerList.Length;
-		for (int i = 0; i < num; i++)
-		{
-			string style = CONTROLLER.TeamList[TeamID].PlayerList[i].BowlerList.Style;
-			if (style != string.Empty && style != null)
-			{
-				BowlersIndexArray.Add(i);
-			}
-		}
-		firstSpellOver = (int)((float)CONTROLLER.Overs[CONTROLLER.oversSelectedIndex] * 0.2f);
+		//if (CONTROLLER.PlayModeSelected >= 8)
+		//{
+		//	return;
+		//}
+		//BowlersIndexArray = new List<int>();
+		//int num = CONTROLLER.TeamList[TeamID].PlayerList.Length;
+		//for (int i = 0; i < num; i++)
+		//{
+		//	string style = CONTROLLER.TeamList[TeamID].PlayerList[i].BowlerList.Style;
+		//	if (style != string.Empty && style != null)
+		//	{
+		//		BowlersIndexArray.Add(i);
+		//	}
+		//}
+		//firstSpellOver = (int)((float)CONTROLLER.Overs[CONTROLLER.oversSelectedIndex] * 0.2f);
 	}
 
 	private string GetBowlerType(int teamID, int bowlerIndex)
@@ -384,7 +384,7 @@ public class BowlingScoreCard : Singleton<BowlingScoreCard>
 		}
 		bowler[currentBowler].Name.font = bold;
 		bowler[currentBowler].Highlight.sprite = bowlerStates[1];
-		CONTROLLER.CurrentBowlerIndex = BowlersIndexArray[currentBowler];
+		//CONTROLLER.CurrentBowlerIndex = BowlersIndexArray[currentBowler];
 		lastBowlerIndex = currentBowler;
 	}
 
@@ -424,11 +424,11 @@ public class BowlingScoreCard : Singleton<BowlingScoreCard>
 		int num = 0;
 		for (int i = 0; i <= CONTROLLER.totalWickets; i++)
 		{
-			if (i != BowlersIndexArray[currentBowler] && i != CONTROLLER.wickerKeeperIndex && i < CONTROLLER.FielderArray.Length)
-			{
-				CONTROLLER.FielderArray[num] = i;
-				num++;
-			}
+			//if (i != BowlersIndexArray[currentBowler] && i != CONTROLLER.wickerKeeperIndex && i < CONTROLLER.FielderArray.Length)
+			//{
+			//	CONTROLLER.FielderArray[num] = i;
+			//	num++;
+			//}
 		}
 	}
 
@@ -440,12 +440,12 @@ public class BowlingScoreCard : Singleton<BowlingScoreCard>
 		}
 		if (CONTROLLER.PlayModeSelected < 8)
 		{
-			int ballsBowled = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].PlayerList[BowlersIndexArray[bowlerindex]].BowlerList.BallsBowled;
-			int num = (int)((float)(CONTROLLER.Overs[CONTROLLER.oversSelectedIndex] * 6) * 0.2f);
-			if (num > ballsBowled)
-			{
-				return false;
-			}
+			//int ballsBowled = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].PlayerList[BowlersIndexArray[bowlerindex]].BowlerList.BallsBowled;
+			//int num = (int)((float)(CONTROLLER.Overs[CONTROLLER.oversSelectedIndex] * 6) * 0.2f);
+			//if (num > ballsBowled)
+			//{
+			//	return false;
+			//}
 			return true;
 		}
 		return false;
@@ -453,15 +453,15 @@ public class BowlingScoreCard : Singleton<BowlingScoreCard>
 
 	private int GetCurrentSpell()
 	{
-		if (CONTROLLER.PlayModeSelected != 7)
-		{
-			int num = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchBalls / 6;
-			if (num < firstSpellOver)
-			{
-				return 1;
-			}
-			return 2;
-		}
+		//if (CONTROLLER.PlayModeSelected != 7)
+		//{
+		//	int num = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchBalls / 6;
+		//	if (num < firstSpellOver)
+		//	{
+		//		return 1;
+		//	}
+		//	return 2;
+		//}
 		return TMGetCurrentSpell();
 	}
 
@@ -479,7 +479,7 @@ public class BowlingScoreCard : Singleton<BowlingScoreCard>
 	{
 		if (CONTROLLER.PlayModeSelected != 7)
 		{
-			int num = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchBalls / 6;
+			//int num = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchBalls / 6;
 			bool flag = false;
 			int num2 = 0;
 			int num3 = 0;
@@ -1204,11 +1204,11 @@ public class BowlingScoreCard : Singleton<BowlingScoreCard>
 
 	private int TMGetCurrentSpell()
 	{
-		int num = ((CONTROLLER.currentInnings >= 2) ? (CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].TMcurrentMatchBalls2 / 6) : (CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].TMcurrentMatchBalls1 / 6));
-		if (num < firstSpellOver)
-		{
-			return 1;
-		}
+		//int num = ((CONTROLLER.currentInnings >= 2) ? (CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].TMcurrentMatchBalls2 / 6) : (CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].TMcurrentMatchBalls1 / 6));
+		//if (num < firstSpellOver)
+		//{
+		//	return 1;
+		//}
 		return 2;
 	}
 

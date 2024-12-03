@@ -177,11 +177,11 @@ public class Intro : Singleton<Intro>
 		num3 = (int)Random.Range(0f, length);
 		NonStriker.GetComponent<Animation>().Play(animation2);
 		NonStriker.GetComponent<Animation>()[animation2].time = 0f;
-		CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].PlayerList[CONTROLLER.StrikerIndex].BatsmanList.Status = "not out";
-		if (CONTROLLER.PlayModeSelected == 7)
-		{
-			TestMatchBatsman.SetStatus(CONTROLLER.BattingTeamIndex, CONTROLLER.StrikerIndex, "not out");
-		}
+		//CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].PlayerList[CONTROLLER.StrikerIndex].BatsmanList.Status = "not out";
+		//if (CONTROLLER.PlayModeSelected == 7)
+		//{
+		//	TestMatchBatsman.SetStatus(CONTROLLER.BattingTeamIndex, CONTROLLER.StrikerIndex, "not out");
+		//}
 		Singleton<BatsmanRecord>.instance.UpdateRecord(CONTROLLER.BattingTeamIndex, CONTROLLER.StrikerIndex);
 		Singleton<BatsmanRecord>.instance.Hide(boolean: false);
 		introCameraTransform.parent = StrikerTransform;

@@ -11,27 +11,27 @@ public class SuperOverLevelInfo : Singleton<SuperOverLevelInfo>
 
 	public Text BowlerType;
 
-	private string[] LevelDescriptionArray = new string[18]
-	{
-		LocalizationData.instance.getText(278),
-		LocalizationData.instance.getText(279),
-		LocalizationData.instance.getText(281),
-		LocalizationData.instance.getText(280),
-		LocalizationData.instance.getText(279),
-		LocalizationData.instance.getText(278),
-		LocalizationData.instance.getText(282),
-		LocalizationData.instance.getText(279),
-		LocalizationData.instance.getText(280),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527),
-		LocalizationData.instance.getText(527)
-	};
+	//private string[] LevelDescriptionArray = new string[18]
+	//{
+	//	LocalizationData.instance.getText(278),
+	//	LocalizationData.instance.getText(279),
+	//	LocalizationData.instance.getText(281),
+	//	LocalizationData.instance.getText(280),
+	//	LocalizationData.instance.getText(279),
+	//	LocalizationData.instance.getText(278),
+	//	LocalizationData.instance.getText(282),
+	//	LocalizationData.instance.getText(279),
+	//	LocalizationData.instance.getText(280),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527),
+	//	LocalizationData.instance.getText(527)
+	//};
 
 	private int[] LevelDescriptionArrayNumber = new int[18]
 	{
@@ -64,8 +64,8 @@ public class SuperOverLevelInfo : Singleton<SuperOverLevelInfo>
 		ChallengeTitle.text = LocalizationData.instance.getText(277) + " " + (CONTROLLER.LevelId + 1);
 		if (CONTROLLER.SuperOverMode == "bat")
 		{
-			LevelTitle.text = string.Empty + LevelDescriptionArray[(int)Mathf.Floor(CONTROLLER.LevelId / 2)];
-			LevelTitle.text = ReplaceText(LevelTitle.text, LevelDescriptionArrayNumber[(int)Mathf.Floor(CONTROLLER.LevelId / 2)].ToString());
+			//LevelTitle.text = string.Empty + LevelDescriptionArray[(int)Mathf.Floor(CONTROLLER.LevelId / 2)];
+			//LevelTitle.text = ReplaceText(LevelTitle.text, LevelDescriptionArrayNumber[(int)Mathf.Floor(CONTROLLER.LevelId / 2)].ToString());
 			if (num == 0)
 			{
 				BowlerType.text = LocalizationData.instance.getText(284);
@@ -77,8 +77,8 @@ public class SuperOverLevelInfo : Singleton<SuperOverLevelInfo>
 		}
 		else
 		{
-			LevelTitle.text = string.Empty + LevelDescriptionArray[CONTROLLER.LevelId + 9];
-			LevelTitle.text = ReplaceText(LevelTitle.text, LevelDescriptionArrayNumber[CONTROLLER.LevelId + 9].ToString());
+			//LevelTitle.text = string.Empty + LevelDescriptionArray[CONTROLLER.LevelId + 9];
+			//LevelTitle.text = ReplaceText(LevelTitle.text, LevelDescriptionArrayNumber[CONTROLLER.LevelId + 9].ToString());
 			BowlerType.text = string.Empty;
 		}
 	}

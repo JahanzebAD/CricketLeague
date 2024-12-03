@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class ManualAutoScroll : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class ManualAutoScroll : MonoBehaviour
     public float scrollSpeed = 100f; // Speed of scrolling
     public float stopDelay = 2f; // Time before stopping
     private bool isScrolling = true;
+
+    public UnityEvent onScrollComplete;
 
     void Start()
     {
@@ -38,7 +41,8 @@ public class ManualAutoScroll : MonoBehaviour
                 isScrolling = false;
                 yield return StopAtRandomImage();
                 yield return new WaitForSeconds(1);
-                SceneManager.LoadScene(2);
+                onScrollComplete.Invoke();
+                //SceneManager.LoadScene(2);
             }
 
             yield return null;

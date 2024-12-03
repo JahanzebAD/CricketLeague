@@ -11,15 +11,15 @@ public class SuperChaseLevelInfo : Singleton<SuperChaseLevelInfo>
 
 	public Text BowlerType;
 
-	private string[] LevelDescriptionArray = new string[6]
-	{
-		LocalizationData.instance.getText(105),
-		LocalizationData.instance.getText(106),
-		LocalizationData.instance.getText(107),
-		LocalizationData.instance.getText(108),
-		LocalizationData.instance.getText(109),
-		LocalizationData.instance.getText(110)
-	};
+	//private string[] LevelDescriptionArray = new string[6]
+	//{
+	//	LocalizationData.instance.getText(105),
+	//	LocalizationData.instance.getText(106),
+	//	LocalizationData.instance.getText(107),
+	//	LocalizationData.instance.getText(108),
+	//	LocalizationData.instance.getText(109),
+	//	LocalizationData.instance.getText(110)
+	//};
 
 	private void Update()
 	{
@@ -33,7 +33,7 @@ public class SuperChaseLevelInfo : Singleton<SuperChaseLevelInfo>
 	{
 		int num = CONTROLLER.TargetToChase - CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchScores;
 		int num2 = CONTROLLER.totalOvers * 6 - CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchBalls;
-		ChallengeTitle.text = LevelDescriptionArray[CONTROLLER.CTCurrentPlayingMainLevel];
+		//ChallengeTitle.text = LevelDescriptionArray[CONTROLLER.CTCurrentPlayingMainLevel];
 		LevelTitle.text = LocalizationData.instance.getText(278);
 		LevelTitle.text = ReplaceText(LevelTitle.text, CONTROLLER.TargetToChase.ToString(), string.Empty);
 		BowlerType.text = LocalizationData.instance.getText(266);

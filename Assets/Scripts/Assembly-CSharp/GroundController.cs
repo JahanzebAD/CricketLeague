@@ -1562,7 +1562,7 @@ public class GroundController : Singleton<GroundController>
 		if (CONTROLLER.PlayModeSelected < 4)
 		{
 			QPMatchStart = true;
-			Server_Connection.instance.Get_XPRank();
+			//Server_Connection.instance.Get_XPRank();
 		}
 		CONTROLLER.pageName = "Ground";
 		CONTROLLER.fromPreloader = false;
@@ -2202,11 +2202,11 @@ public class GroundController : Singleton<GroundController>
 		ShotVariables.InitShotVariables();
 		resumeGO.SetActive(value: false);
 		HideBatShadow();
-		if (!Singleton<NavigationBack>.instance.disableDeviceBack)
-		{
-			Singleton<NavigationBack>.instance.disableDeviceBack = true;
-		}
-		Singleton<NavigationBack>.instance.deviceBack = OpenPause;
+		//if (!Singleton<NavigationBack>.instance.disableDeviceBack)
+		//{
+		//	Singleton<NavigationBack>.instance.disableDeviceBack = true;
+		//}
+		//Singleton<NavigationBack>.instance.deviceBack = OpenPause;
 		if (CONTROLLER.PlayModeSelected != 7)
 		{
 			MainUmpireSkinRendererComponent.materials[0].SetTexture("_PatternTex", umpireTexture[mainUmpireIndex]);
@@ -3067,10 +3067,10 @@ public class GroundController : Singleton<GroundController>
 			mainUmpireIndex = 1;
 			sideUmpireIndex = 0;
 		}
-		battingTeam = TrimSpaces(CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName);
-		bowlingTeam = TrimSpaces(CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName);
-		CONTROLLER.battingTeamUniform = battingTeam;
-		CONTROLLER.bowlingTeamUniform = bowlingTeam;
+		//battingTeam = TrimSpaces(CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName);
+		//bowlingTeam = TrimSpaces(CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName);
+		//CONTROLLER.battingTeamUniform = battingTeam;
+		//CONTROLLER.bowlingTeamUniform = bowlingTeam;
 		InitializeEnvironment();
 		GameObject gameObject;
 		Renderer component;

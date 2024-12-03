@@ -39,7 +39,7 @@ public class PreviewScreen : Singleton<PreviewScreen>
 
 	public void Start()
 	{
-		FieldStatus.text = LocalizationData.instance.getText(238) + CONTROLLER.fielderChangeIndex;
+		//FieldStatus.text = LocalizationData.instance.getText(238) + CONTROLLER.fielderChangeIndex;
 		BowlerSideBtn.SetActive(value: false);
 		hideBtns(boolean: false);
 		if (CONTROLLER.myTeamIndex == CONTROLLER.BowlingTeamIndex)
@@ -119,11 +119,11 @@ public class PreviewScreen : Singleton<PreviewScreen>
 	{
 		if (CONTROLLER.fielderChangeIndex > 10)
 		{
-			FieldStatus.text = LocalizationData.instance.getText(239) + (CONTROLLER.fielderChangeIndex - 10);
+			//FieldStatus.text = LocalizationData.instance.getText(239) + (CONTROLLER.fielderChangeIndex - 10);
 		}
 		else
 		{
-			FieldStatus.text = LocalizationData.instance.getText(238) + CONTROLLER.fielderChangeIndex;
+			//FieldStatus.text = LocalizationData.instance.getText(238) + CONTROLLER.fielderChangeIndex;
 		}
 		if (CONTROLLER.fielderChangeIndex == 1 || CONTROLLER.fielderChangeIndex > 1)
 		{

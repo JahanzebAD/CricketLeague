@@ -803,65 +803,65 @@ public class GameModel : Singleton<GameModel>
 
 	private void ResetPlayerScores()
 	{
-		if (CONTROLLER.myTeamIndex >= 0)
-		{
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchScores = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchBalls = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchWickets = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchExtras = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchLbs = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchbyes = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchNoball = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchWideBall = 0;
-		}
-		if (CONTROLLER.opponentTeamIndex >= 0)
-		{
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchScores = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchBalls = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchWickets = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchExtras = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchLbs = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchbyes = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchNoball = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchWideBall = 0;
-		}
-		int num = CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList.Length;
-		for (int i = 0; i < num; i++)
-		{
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].ConfidenceVal = CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].ConfidenceLevel;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].LoftMeterFillVal = loftValues[i];
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].reachedHalfCentury = false;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].reachedCentury = false;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].ConfidenceVal = CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].ConfidenceLevel;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].LoftMeterFillVal = loftValues[i];
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].reachedHalfCentury = false;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].reachedCentury = false;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BatsmanList.Status = string.Empty;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BatsmanList.RunsScored = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BatsmanList.BallsPlayed = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BatsmanList.Fours = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BatsmanList.Sixes = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BatsmanList.FOW = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BatsmanList.Status = string.Empty;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BatsmanList.RunsScored = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BatsmanList.BallsPlayed = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BatsmanList.Fours = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BatsmanList.Sixes = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BatsmanList.FOW = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BowlerList.RunsGiven = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BowlerList.BallsBowled = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BowlerList.Maiden = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BowlerList.Wicket = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BowlerList.maxBallInMatch = 0;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BowlerList.WicketsInBallCount = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BowlerList.RunsGiven = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BowlerList.BallsBowled = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BowlerList.Maiden = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BowlerList.Wicket = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BowlerList.maxBallInMatch = 0;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BowlerList.WicketsInBallCount = 0;
-		}
-	}
+        //if (CONTROLLER.myTeamIndex >= 0)
+        //{
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchScores = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchBalls = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchWickets = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchExtras = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchLbs = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchbyes = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchNoball = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].currentMatchWideBall = 0;
+        //}
+        //if (CONTROLLER.opponentTeamIndex >= 0)
+        //{
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchScores = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchBalls = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchWickets = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchExtras = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchLbs = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchbyes = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchNoball = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].currentMatchWideBall = 0;
+        //}
+        //int num = CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList.Length;
+        //for (int i = 0; i < num; i++)
+        //{
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].ConfidenceVal = CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].ConfidenceLevel;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].LoftMeterFillVal = loftValues[i];
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].reachedHalfCentury = false;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].reachedCentury = false;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].ConfidenceVal = CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].ConfidenceLevel;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].LoftMeterFillVal = loftValues[i];
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].reachedHalfCentury = false;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].reachedCentury = false;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BatsmanList.Status = string.Empty;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BatsmanList.RunsScored = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BatsmanList.BallsPlayed = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BatsmanList.Fours = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BatsmanList.Sixes = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BatsmanList.FOW = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BatsmanList.Status = string.Empty;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BatsmanList.RunsScored = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BatsmanList.BallsPlayed = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BatsmanList.Fours = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BatsmanList.Sixes = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BatsmanList.FOW = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BowlerList.RunsGiven = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BowlerList.BallsBowled = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BowlerList.Maiden = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BowlerList.Wicket = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BowlerList.maxBallInMatch = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].BowlerList.WicketsInBallCount = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BowlerList.RunsGiven = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BowlerList.BallsBowled = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BowlerList.Maiden = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BowlerList.Wicket = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BowlerList.maxBallInMatch = 0;
+        //    CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].BowlerList.WicketsInBallCount = 0;
+       // }
+    }
 
 	public void NewGame()
 	{
@@ -1220,52 +1220,52 @@ public class GameModel : Singleton<GameModel>
 
 	public void NewInnings()
 	{
-		if (CONTROLLER.PlayModeSelected == 7)
-		{
-			CONTROLLER.NewInnings = true;
-			CONTROLLER.GameStartsFromSave = false;
-			ObscuredPrefs.DeleteKey("perMatchEdgeCount" + CONTROLLER.PlayModeSelected);
-		}
-		CONTROLLER.TeamList[CONTROLLER.myTeamIndex].noofDRSLeft = 2;
-		CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].noofDRSLeft = 2;
+		//if (CONTROLLER.PlayModeSelected == 7)
+		//{
+		//	CONTROLLER.NewInnings = true;
+		//	CONTROLLER.GameStartsFromSave = false;
+		//	ObscuredPrefs.DeleteKey("perMatchEdgeCount" + CONTROLLER.PlayModeSelected);
+		//}
+		//CONTROLLER.TeamList[CONTROLLER.myTeamIndex].noofDRSLeft = 2;
+		//CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].noofDRSLeft = 2;
 		SetTeamIndex();
-		CONTROLLER.RunRate = 0f;
-		CONTROLLER.NewOver = true;
-		CONTROLLER.StrikerIndex = 0;
-		CONTROLLER.NonStrikerIndex = 1;
-		CONTROLLER.continousWickets = 0;
-		CONTROLLER.continousSixes = 0;
-		CONTROLLER.continousBoundaries = 0;
-		Singleton<PreviewScreen>.instance.alertPopup.SetActive(value: false);
-		CONTROLLER.RunsInAOver = 0;
-		CONTROLLER.WideInAOver = 0;
-		CONTROLLER.DotInAOver = 0;
-		if (CONTROLLER.PlayModeSelected == 7)
-		{
-			ScoreStr = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchScores + "/" + CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchWickets;
-			ExtraStr = LocalizationData.instance.getText(235) + " " + CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchExtras;
-		}
-		else
-		{
-			ScoreStr = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchScores + "/" + CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchWickets;
-			ExtraStr = LocalizationData.instance.getText(235) + " " + CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchExtras;
-		}
-		if (CONTROLLER.PlayModeSelected != 6)
-		{
-			OversStr = GetOverStr() + "(" + CONTROLLER.totalOvers + ")";
-		}
-		int num = CONTROLLER.Overs[CONTROLLER.oversSelectedIndex] * 2 * 6 + 1;
-		CONTROLLER.Wagon_PlayedBy = new int[num];
-		CONTROLLER.Wagon_RunScored = new int[num];
-		CONTROLLER.Wagon_NoOfBounce = new int[num];
-		CONTROLLER.Wagon_BallAngle = new float[num];
-		CONTROLLER.Wagon_FirstPitchPoint = new Vector3[num];
-		CONTROLLER.Wagon_SecondPitchPoint = new Vector3[num];
-		CONTROLLER.Wagon_ThirdPitchPoint = new Vector3[num];
-		CONTROLLER.Wagon_FinalPitchPoint = new Vector3[num];
-		CONTROLLER.Wagon_FirstPitchHeight = new float[num];
-		CONTROLLER.Wagon_SecondPitchHeight = new float[num];
-		CONTROLLER.Wagon_ThirdPitchHeight = new float[num];
+		//CONTROLLER.RunRate = 0f;
+		//CONTROLLER.NewOver = true;
+		//CONTROLLER.StrikerIndex = 0;
+		//CONTROLLER.NonStrikerIndex = 1;
+		//CONTROLLER.continousWickets = 0;
+		//CONTROLLER.continousSixes = 0;
+		//CONTROLLER.continousBoundaries = 0;
+		//Singleton<PreviewScreen>.instance.alertPopup.SetActive(value: false);
+		//CONTROLLER.RunsInAOver = 0;
+		//CONTROLLER.WideInAOver = 0;
+		//CONTROLLER.DotInAOver = 0;
+		//if (CONTROLLER.PlayModeSelected == 7)
+		//{
+		//	ScoreStr = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchScores + "/" + CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchWickets;
+  //          ExtraStr = LocalizationData.instance.getText(235) + " " + CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchExtras;
+  //      }
+		//else
+		//{
+		//	ScoreStr = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchScores + "/" + CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchWickets;
+  //          ExtraStr = LocalizationData.instance.getText(235) + " " + CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchExtras;
+  //      }
+		//if (CONTROLLER.PlayModeSelected != 6)
+		//{
+		//	OversStr = GetOverStr() + "(" + CONTROLLER.totalOvers + ")";
+		//}
+		//int num = CONTROLLER.Overs[CONTROLLER.oversSelectedIndex] * 2 * 6 + 1;
+		//CONTROLLER.Wagon_PlayedBy = new int[num];
+		//CONTROLLER.Wagon_RunScored = new int[num];
+		//CONTROLLER.Wagon_NoOfBounce = new int[num];
+		//CONTROLLER.Wagon_BallAngle = new float[num];
+		//CONTROLLER.Wagon_FirstPitchPoint = new Vector3[num];
+		//CONTROLLER.Wagon_SecondPitchPoint = new Vector3[num];
+		//CONTROLLER.Wagon_ThirdPitchPoint = new Vector3[num];
+		//CONTROLLER.Wagon_FinalPitchPoint = new Vector3[num];
+		//CONTROLLER.Wagon_FirstPitchHeight = new float[num];
+		//CONTROLLER.Wagon_SecondPitchHeight = new float[num];
+		//CONTROLLER.Wagon_ThirdPitchHeight = new float[num];
 		groundControllerScript.NewInnings();
 		groundControllerScript.ResetFielders();
 		if (CONTROLLER.PlayModeSelected == 6)
@@ -1466,9 +1466,9 @@ public class GameModel : Singleton<GameModel>
 				PowerPlayOver = (int)Mathf.Floor((float)CONTROLLER.totalOvers * 0.3f);
 				SlogOverValue = (int)((float)CONTROLLER.totalOvers - Mathf.Floor((float)CONTROLLER.totalOvers * 0.2f));
 			}
-			CONTROLLER.wickerKeeperIndex = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].KeeperIndex;
-			CONTROLLER.BattingTeamName = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName;
-			CONTROLLER.BowlingTeamName = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName;
+			//CONTROLLER.wickerKeeperIndex = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].KeeperIndex;
+			//CONTROLLER.BattingTeamName = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName;
+			//CONTROLLER.BowlingTeamName = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName;
 		}
 		Singleton<Scoreboard>.instance.HideStrip(boolean: true);
 	}
@@ -1486,16 +1486,16 @@ public class GameModel : Singleton<GameModel>
 		CONTROLLER.StrikerIndex = 0;
 		CONTROLLER.NonStrikerIndex = 1;
 		NewBatsmanIndex = CONTROLLER.NonStrikerIndex;
-		CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].PlayerList[CONTROLLER.StrikerIndex].BatsmanList.Status = "not out";
-		CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].PlayerList[CONTROLLER.NonStrikerIndex].BatsmanList.Status = "not out";
+		//CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].PlayerList[CONTROLLER.StrikerIndex].BatsmanList.Status = "not out";
+		//CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].PlayerList[CONTROLLER.NonStrikerIndex].BatsmanList.Status = "not out";
 		if (CONTROLLER.PlayModeSelected == 7)
 		{
 			TestMatchBatsman.SetStatus(CONTROLLER.BattingTeamIndex, CONTROLLER.StrikerIndex, "not out");
 			TestMatchBatsman.SetStatus(CONTROLLER.BattingTeamIndex, CONTROLLER.NonStrikerIndex, "not out");
 		}
 		Singleton<BattingScoreCard>.instance.ResetBattingCard();
-		CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].PlayerList[CONTROLLER.StrikerIndex].BatsmanList.Status = "not out";
-		CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].PlayerList[CONTROLLER.NonStrikerIndex].BatsmanList.Status = "not out";
+		//CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].PlayerList[CONTROLLER.StrikerIndex].BatsmanList.Status = "not out";
+		//CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].PlayerList[CONTROLLER.NonStrikerIndex].BatsmanList.Status = "not out";
 		if (CONTROLLER.PlayModeSelected == 7)
 		{
 			TestMatchBatsman.SetStatus(CONTROLLER.BattingTeamIndex, CONTROLLER.StrikerIndex, "not out");
@@ -1769,7 +1769,7 @@ public class GameModel : Singleton<GameModel>
 
 	public void ShowBattingScoreCard()
 	{
-		Singleton<NavigationBack>.instance.disableDeviceBack = false;
+		//Singleton<NavigationBack>.instance.disableDeviceBack = false;
 		groundControllerScript.showPreviewCamera(status: false);
 		if (CONTROLLER.PlayModeSelected != 6)
 		{
@@ -1799,14 +1799,14 @@ public class GameModel : Singleton<GameModel>
 				Singleton<BattingScoreCard>.instance.SCTeamName.DOFade(1f, 0f);
 				fromMainMenu = false;
 			}
-			else if (CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchBalls == 0 || inningsCompleted || fromMainMenu || CONTROLLER.PlayModeSelected > 3)
-			{
-				Singleton<PauseGameScreen>.instance.BG.SetActive(value: true);
-				Singleton<BattingScoreCard>.instance.Hide(boolean: false);
-				Singleton<BattingScoreCard>.instance.UpdateScoreCard();
-				Singleton<BattingScoreCard>.instance.SCTeamName.DOFade(1f, 0f);
-				fromMainMenu = false;
-			}
+			//else if (CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchBalls == 0 || inningsCompleted || fromMainMenu || CONTROLLER.PlayModeSelected > 3)
+			//{
+			//	Singleton<PauseGameScreen>.instance.BG.SetActive(value: true);
+			//	Singleton<BattingScoreCard>.instance.Hide(boolean: false);
+			//	Singleton<BattingScoreCard>.instance.UpdateScoreCard();
+			//	Singleton<BattingScoreCard>.instance.SCTeamName.DOFade(1f, 0f);
+			//	fromMainMenu = false;
+			//}
 			else
 			{
 				Singleton<AfterOverSummary>.instance.ShowMe();
@@ -4444,16 +4444,16 @@ public class GameModel : Singleton<GameModel>
 
 	public void DeleteAchievementFlags()
 	{
-		for (int i = 1; i < 16; i++)
-		{
-			string key = AchievementTable.AchievementName[i] + " Trigger" + CONTROLLER.PlayModeSelected;
-			ObscuredPrefs.SetInt(key, 0);
-		}
-		for (int j = 1; j < 16; j++)
-		{
-			string key = AchievementTable.AchievementName[j] + " Popup";
-			ObscuredPrefs.SetInt(key, 0);
-		}
+		//for (int i = 1; i < 16; i++)
+		//{
+		//	string key = AchievementTable.AchievementName[i] + " Trigger" + CONTROLLER.PlayModeSelected;
+		//	ObscuredPrefs.SetInt(key, 0);
+		//}
+		//for (int j = 1; j < 16; j++)
+		//{
+		//	string key = AchievementTable.AchievementName[j] + " Popup";
+		//	ObscuredPrefs.SetInt(key, 0);
+		//}
 	}
 
 	private void ChallengeCompletedCheckpoint()
@@ -5630,116 +5630,116 @@ public class GameModel : Singleton<GameModel>
 
 	private void FormatNames()
 	{
-		for (int i = 0; i < CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList.Length; i++)
-		{
-			string text = string.Empty;
-			string text2 = string.Empty;
-			string[] array = CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].PlayerName.Split(" "[0]);
-			string[] array2 = new string[array.Length];
-			for (int j = 0; j < array.Length; j++)
-			{
-				if (array[j] != string.Empty && array[j] != " ")
-				{
-					string text3 = array[j];
-					string text4 = text3.Substring(0, 1);
-					string text5 = text3.Substring(1);
-					text4 = text4.ToUpper();
-					text5 = text5.ToLower();
-					text3 = text4 + text5;
-					string text6 = ((j >= array.Length - 1) ? (text4 + text5) : text4);
-					array[j] = text3;
-					array2[j] = text6;
-				}
-			}
-			for (int j = 0; j < array.Length; j++)
-			{
-				if (array[j] != string.Empty && array[j] != " ")
-				{
-					if (j < array.Length - 1)
-					{
-						text = text + array[j] + " ";
-						text2 = text2 + array2[j] + " ";
-					}
-					else
-					{
-						text += array[j];
-						text2 += array2[j];
-					}
-				}
-			}
-			if (text.Length > 12)
-			{
-				text = text.Substring(0, 12);
-			}
-			if (text2.Length > 12)
-			{
-				text2 = text2.Substring(0, 12);
-			}
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].PlayerName = text;
-			CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].ScoreboardName = text2;
-			text = string.Empty;
-			text2 = string.Empty;
-			array = CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].PlayerName.Split(" "[0]);
-			array2 = new string[array.Length];
-			for (int j = 0; j < array.Length; j++)
-			{
-				if (array[j] != string.Empty && array[j] != " ")
-				{
-					string text3 = array[j];
-					string text4 = text3.Substring(0, 1);
-					string text5 = text3.Substring(1);
-					text4 = text4.ToUpper();
-					text5 = text5.ToLower();
-					text3 = text4 + text5;
-					string text6 = ((j >= array.Length - 1) ? (text4 + text5) : text4);
-					array[j] = text3;
-					array2[j] = text6;
-				}
-			}
-			for (int j = 0; j < array.Length; j++)
-			{
-				if (array[j] != string.Empty && array[j] != " ")
-				{
-					if (j < array.Length - 1)
-					{
-						text = text + array[j] + " ";
-						text2 = text2 + array2[j] + " ";
-					}
-					else
-					{
-						text += array[j];
-						text2 += array2[j];
-					}
-				}
-			}
-			if (text.Length > 12)
-			{
-				text = text.Substring(0, 12);
-			}
-			if (text2.Length > 12)
-			{
-				text2 = text2.Substring(0, 12);
-			}
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].PlayerName = text;
-			CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].ScoreboardName = text2;
-		}
+		//for (int i = 0; i < CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList.Length; i++)
+		//{
+		//	string text = string.Empty;
+		//	string text2 = string.Empty;
+		//	string[] array = CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].PlayerName.Split(" "[0]);
+		//	string[] array2 = new string[array.Length];
+		//	for (int j = 0; j < array.Length; j++)
+		//	{
+		//		if (array[j] != string.Empty && array[j] != " ")
+		//		{
+		//			string text3 = array[j];
+		//			string text4 = text3.Substring(0, 1);
+		//			string text5 = text3.Substring(1);
+		//			text4 = text4.ToUpper();
+		//			text5 = text5.ToLower();
+		//			text3 = text4 + text5;
+		//			string text6 = ((j >= array.Length - 1) ? (text4 + text5) : text4);
+		//			array[j] = text3;
+		//			array2[j] = text6;
+		//		}
+		//	}
+		//	for (int j = 0; j < array.Length; j++)
+		//	{
+		//		if (array[j] != string.Empty && array[j] != " ")
+		//		{
+		//			if (j < array.Length - 1)
+		//			{
+		//				text = text + array[j] + " ";
+		//				text2 = text2 + array2[j] + " ";
+		//			}
+		//			else
+		//			{
+		//				text += array[j];
+		//				text2 += array2[j];
+		//			}
+		//		}
+		//	}
+		//	if (text.Length > 12)
+		//	{
+		//		text = text.Substring(0, 12);
+		//	}
+		//	if (text2.Length > 12)
+		//	{
+		//		text2 = text2.Substring(0, 12);
+		//	}
+		//	CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].PlayerName = text;
+		//	CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].ScoreboardName = text2;
+		//	text = string.Empty;
+		//	text2 = string.Empty;
+		//	array = CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].PlayerName.Split(" "[0]);
+		//	array2 = new string[array.Length];
+		//	for (int j = 0; j < array.Length; j++)
+		//	{
+		//		if (array[j] != string.Empty && array[j] != " ")
+		//		{
+		//			string text3 = array[j];
+		//			string text4 = text3.Substring(0, 1);
+		//			string text5 = text3.Substring(1);
+		//			text4 = text4.ToUpper();
+		//			text5 = text5.ToLower();
+		//			text3 = text4 + text5;
+		//			string text6 = ((j >= array.Length - 1) ? (text4 + text5) : text4);
+		//			array[j] = text3;
+		//			array2[j] = text6;
+		//		}
+		//	}
+		//	for (int j = 0; j < array.Length; j++)
+		//	{
+		//		if (array[j] != string.Empty && array[j] != " ")
+		//		{
+		//			if (j < array.Length - 1)
+		//			{
+		//				text = text + array[j] + " ";
+		//				text2 = text2 + array2[j] + " ";
+		//			}
+		//			else
+		//			{
+		//				text += array[j];
+		//				text2 += array2[j];
+		//			}
+		//		}
+		//	}
+		//	if (text.Length > 12)
+		//	{
+		//		text = text.Substring(0, 12);
+		//	}
+		//	if (text2.Length > 12)
+		//	{
+		//		text2 = text2.Substring(0, 12);
+		//	}
+		//	CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].PlayerName = text;
+		//	CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].ScoreboardName = text2;
+		//}
 	}
 
 	private void TrimLastSpaces()
 	{
-		for (int i = 0; i < CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList.Length; i++)
-		{
-			string playerName = CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].PlayerName;
-			if (playerName[playerName.Length - 1] == ' ')
-			{
-				TrimSpaces(i, CONTROLLER.myTeamIndex);
-			}
-			playerName = CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].PlayerName;
-			if (playerName[playerName.Length - 1] == ' ')
-			{
-				TrimSpaces(i, CONTROLLER.opponentTeamIndex);
-			}
-		}
+		//for (int i = 0; i < CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList.Length; i++)
+		//{
+		//	string playerName = CONTROLLER.TeamList[CONTROLLER.myTeamIndex].PlayerList[i].PlayerName;
+		//	if (playerName[playerName.Length - 1] == ' ')
+		//	{
+		//		TrimSpaces(i, CONTROLLER.myTeamIndex);
+		//	}
+		//	playerName = CONTROLLER.TeamList[CONTROLLER.opponentTeamIndex].PlayerList[i].PlayerName;
+		//	if (playerName[playerName.Length - 1] == ' ')
+		//	{
+		//		TrimSpaces(i, CONTROLLER.opponentTeamIndex);
+		//	}
+		//}
 	}
 
 	private void TrimSpaces(int index, int teamIndex)

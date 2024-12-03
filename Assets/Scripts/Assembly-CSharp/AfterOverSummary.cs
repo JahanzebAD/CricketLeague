@@ -86,15 +86,15 @@ public class AfterOverSummary : Singleton<AfterOverSummary>
 		{
 			//Singleton<AdIntegrate>.instance.HideAd();
 		}
-		if (CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchBalls > 0)
-		{
-			
-				tapToContinue.SetActive(value: true);
-				adTimer.SetActive(value: false);
-			
-		}
-		else
-		{
+        if (CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchBalls > 0)
+        {
+
+            tapToContinue.SetActive(value: true);
+            adTimer.SetActive(value: false);
+
+        }
+        else
+        {
 			tapToContinue.SetActive(value: true);
 			adTimer.SetActive(value: false);
 		}

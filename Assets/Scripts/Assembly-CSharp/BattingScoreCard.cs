@@ -65,39 +65,39 @@ public class BattingScoreCard : Singleton<BattingScoreCard>
 
 	public void ResetBattingCard()
 	{
-		if (CONTROLLER.PlayModeSelected == 7)
-		{
-			TMResetBattingCard();
-			return;
-		}
-		int battingTeamIndex = CONTROLLER.BattingTeamIndex;
-		SetTeamInfo();
-		for (int i = 0; i < batsman.Length; i++)
-		{
-			batsman[i].Highlight.sprite = batsmanStates[0];
-			batsman[i].Name.font = normal;
-			batsman[i].Name.text = CONTROLLER.TeamList[battingTeamIndex].PlayerList[i].ScoreboardName.ToUpper();
-			batsman[i].Status.text = string.Empty.ToUpper();
-			batsman[i].Runs.text = string.Empty;
-			batsman[i].Balls.text = string.Empty;
-			batsman[i].SR.text = string.Empty;
-			batsman[i].Fours.text = string.Empty;
-			batsman[i].Sixes.text = string.Empty;
-			batsman[i].FOW.text = string.Empty;
-		}
-		ScoreText.text = Singleton<GameModel>.instance.ScoreStr;
-		ExtrasText.text = Singleton<GameModel>.instance.ExtraStr;
-		OversText.text = Singleton<GameModel>.instance.OversStr;
-		if (OversText.text.Contains("("))
-		{
-			Debug.Log(OversText.text);
-			OversText.text = OversText.text.Replace("(", LocalizationData.instance.getText(651));
-		}
-		if (OversText.text.Contains(")"))
-		{
-			Debug.Log(OversText.text);
-			OversText.text = OversText.text.Replace(")", LocalizationData.instance.getText(652));
-		}
+		//if (CONTROLLER.PlayModeSelected == 7)
+		//{
+		//	TMResetBattingCard();
+		//	return;
+		//}
+		//int battingTeamIndex = CONTROLLER.BattingTeamIndex;
+		//SetTeamInfo();
+		//for (int i = 0; i < batsman.Length; i++)
+		//{
+		//	batsman[i].Highlight.sprite = batsmanStates[0];
+		//	batsman[i].Name.font = normal;
+		//	batsman[i].Name.text = CONTROLLER.TeamList[battingTeamIndex].PlayerList[i].ScoreboardName.ToUpper();
+		//	batsman[i].Status.text = string.Empty.ToUpper();
+		//	batsman[i].Runs.text = string.Empty;
+		//	batsman[i].Balls.text = string.Empty;
+		//	batsman[i].SR.text = string.Empty;
+		//	batsman[i].Fours.text = string.Empty;
+		//	batsman[i].Sixes.text = string.Empty;
+		//	batsman[i].FOW.text = string.Empty;
+		//}
+		//ScoreText.text = Singleton<GameModel>.instance.ScoreStr;
+		//ExtrasText.text = Singleton<GameModel>.instance.ExtraStr;
+		//OversText.text = Singleton<GameModel>.instance.OversStr;
+		//if (OversText.text.Contains("("))
+		//{
+		//	Debug.Log(OversText.text);
+		//	OversText.text = OversText.text.Replace("(", LocalizationData.instance.getText(651));
+		//}
+		//if (OversText.text.Contains(")"))
+		//{
+		//	Debug.Log(OversText.text);
+		//	OversText.text = OversText.text.Replace(")", LocalizationData.instance.getText(652));
+		//}
 	}
 
 	public void RestartGame()
@@ -146,38 +146,38 @@ public class BattingScoreCard : Singleton<BattingScoreCard>
 
 	private void SetTeamInfo()
 	{
-		if (CONTROLLER.currentInnings == 0)
-		{
-			Sprite[] flags = Singleton<FlagHolderGround>.instance.flags;
-			foreach (Sprite sprite in flags)
-			{
-				if (sprite.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].abbrevation)
-				{
-					SCTeamFlag.sprite = sprite;
-				}
-				if (sprite.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].abbrevation)
-				{
-					BtnTeamFlag.sprite = sprite;
-				}
-			}
-			SCTeamName.text = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName.ToUpper();
-			BtnTeamName.text = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName.ToUpper();
-			return;
-		}
-		Sprite[] flags2 = Singleton<FlagHolderGround>.instance.flags;
-		foreach (Sprite sprite2 in flags2)
-		{
-			if (sprite2.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].abbrevation)
-			{
-				SCTeamFlag.sprite = sprite2;
-			}
-			if (sprite2.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].abbrevation)
-			{
-				BtnTeamFlag.sprite = sprite2;
-			}
-		}
-		SCTeamName.text = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName.ToUpper();
-		BtnTeamName.text = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName.ToUpper();
+		//if (CONTROLLER.currentInnings == 0)
+		//{
+		//	Sprite[] flags = Singleton<FlagHolderGround>.instance.flags;
+		//	foreach (Sprite sprite in flags)
+		//	{
+		//		if (sprite.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].abbrevation)
+		//		{
+		//			SCTeamFlag.sprite = sprite;
+		//		}
+		//		if (sprite.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].abbrevation)
+		//		{
+		//			BtnTeamFlag.sprite = sprite;
+		//		}
+		//	}
+		//	SCTeamName.text = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName.ToUpper();
+		//	BtnTeamName.text = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName.ToUpper();
+		//	return;
+		//}
+		//Sprite[] flags2 = Singleton<FlagHolderGround>.instance.flags;
+		//foreach (Sprite sprite2 in flags2)
+		//{
+		//	if (sprite2.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].abbrevation)
+		//	{
+		//		SCTeamFlag.sprite = sprite2;
+		//	}
+		//	if (sprite2.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].abbrevation)
+		//	{
+		//		BtnTeamFlag.sprite = sprite2;
+		//	}
+		//}
+		//SCTeamName.text = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName.ToUpper();
+		//BtnTeamName.text = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName.ToUpper();
 	}
 
 	private void TMSetTeamInfo()
@@ -326,154 +326,154 @@ public class BattingScoreCard : Singleton<BattingScoreCard>
 
 	private void DisplayList(int TeamID)
 	{
-		if (CONTROLLER.PlayModeSelected == 7)
-		{
-			TMDisplayList(TeamID);
-			return;
-		}
-		for (int i = 0; i < batsman.Length; i++)
-		{
-			if (CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.Status == string.Empty || CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.Status == null)
-			{
-				batsman[i].Name.font = normal;
-				batsman[i].Highlight.sprite = batsmanStates[0];
-				batsman[i].Name.text = CONTROLLER.TeamList[TeamID].PlayerList[i].ScoreboardName.ToUpper();
-				batsman[i].Status.text = string.Empty.ToUpper();
-				batsman[i].Runs.text = string.Empty;
-				batsman[i].Balls.text = string.Empty;
-				batsman[i].SR.text = string.Empty;
-				batsman[i].Fours.text = string.Empty;
-				batsman[i].Sixes.text = string.Empty;
-				batsman[i].FOW.text = string.Empty;
-				continue;
-			}
-			if (CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.Status == "not out".ToUpper())
-			{
-				batsman[i].Name.font = bold;
-				batsman[i].Highlight.sprite = batsmanStates[1];
-				batsman[i].FOW.text = string.Empty;
-			}
-			else
-			{
-				batsman[i].Name.font = normal;
-				batsman[i].Highlight.sprite = batsmanStates[2];
-				batsman[i].FOW.text = string.Empty + CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.FOW;
-			}
-			batsman[i].Name.text = GetBatsmanShortName(TeamID, i).ToUpper();
-			batsman[i].Runs.text = string.Empty + CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.RunsScored;
-			batsman[i].Balls.text = string.Empty + CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.BallsPlayed;
-			batsman[i].SR.text = GetStrikeRate(TeamID, i);
-			batsman[i].Fours.text = string.Empty + CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.Fours;
-			batsman[i].Sixes.text = string.Empty + CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.Sixes;
-			batsman[i].Status.text = CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.Status.ToUpper();
-		}
-		string text = CONTROLLER.TeamList[TeamID].currentMatchScores + "/" + CONTROLLER.TeamList[TeamID].currentMatchWickets;
-		string text2 = LocalizationData.instance.getText(235) + " " + CONTROLLER.TeamList[TeamID].currentMatchExtras;
-		int num = CONTROLLER.TeamList[TeamID].currentMatchBalls / 6;
-		int num2 = CONTROLLER.TeamList[TeamID].currentMatchBalls % 6;
-		string text3 = LocalizationData.instance.getText(184) + " " + num + "." + num2 + "(" + CONTROLLER.totalOvers + ")";
-		ScoreText.text = text;
-		ExtrasText.text = text2;
-		OversText.text = text3;
-		if (OversText.text.Contains("("))
-		{
-			Debug.Log(OversText.text);
-			OversText.text = OversText.text.Replace("(", LocalizationData.instance.getText(651));
-		}
-		if (OversText.text.Contains(")"))
-		{
-			Debug.Log(OversText.text);
-			OversText.text = OversText.text.Replace(")", LocalizationData.instance.getText(652));
-		}
+		//if (CONTROLLER.PlayModeSelected == 7)
+		//{
+		//	TMDisplayList(TeamID);
+		//	return;
+		//}
+		//for (int i = 0; i < batsman.Length; i++)
+		//{
+		//	if (CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.Status == string.Empty || CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.Status == null)
+		//	{
+		//		batsman[i].Name.font = normal;
+		//		batsman[i].Highlight.sprite = batsmanStates[0];
+		//		batsman[i].Name.text = CONTROLLER.TeamList[TeamID].PlayerList[i].ScoreboardName.ToUpper();
+		//		batsman[i].Status.text = string.Empty.ToUpper();
+		//		batsman[i].Runs.text = string.Empty;
+		//		batsman[i].Balls.text = string.Empty;
+		//		batsman[i].SR.text = string.Empty;
+		//		batsman[i].Fours.text = string.Empty;
+		//		batsman[i].Sixes.text = string.Empty;
+		//		batsman[i].FOW.text = string.Empty;
+		//		continue;
+		//	}
+		//	if (CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.Status == "not out".ToUpper())
+		//	{
+		//		batsman[i].Name.font = bold;
+		//		batsman[i].Highlight.sprite = batsmanStates[1];
+		//		batsman[i].FOW.text = string.Empty;
+		//	}
+		//	else
+		//	{
+		//		batsman[i].Name.font = normal;
+		//		batsman[i].Highlight.sprite = batsmanStates[2];
+		//		batsman[i].FOW.text = string.Empty + CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.FOW;
+		//	}
+		//	batsman[i].Name.text = GetBatsmanShortName(TeamID, i).ToUpper();
+		//	batsman[i].Runs.text = string.Empty + CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.RunsScored;
+		//	batsman[i].Balls.text = string.Empty + CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.BallsPlayed;
+		//	batsman[i].SR.text = GetStrikeRate(TeamID, i);
+		//	batsman[i].Fours.text = string.Empty + CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.Fours;
+		//	batsman[i].Sixes.text = string.Empty + CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.Sixes;
+		//	batsman[i].Status.text = CONTROLLER.TeamList[TeamID].PlayerList[i].BatsmanList.Status.ToUpper();
+		//}
+		//string text = CONTROLLER.TeamList[TeamID].currentMatchScores + "/" + CONTROLLER.TeamList[TeamID].currentMatchWickets;
+		//string text2 = LocalizationData.instance.getText(235) + " " + CONTROLLER.TeamList[TeamID].currentMatchExtras;
+		//int num = CONTROLLER.TeamList[TeamID].currentMatchBalls / 6;
+		//int num2 = CONTROLLER.TeamList[TeamID].currentMatchBalls % 6;
+		//string text3 = LocalizationData.instance.getText(184) + " " + num + "." + num2 + "(" + CONTROLLER.totalOvers + ")";
+		//ScoreText.text = text;
+		//ExtrasText.text = text2;
+		//OversText.text = text3;
+		//if (OversText.text.Contains("("))
+		//{
+		//	Debug.Log(OversText.text);
+		//	OversText.text = OversText.text.Replace("(", LocalizationData.instance.getText(651));
+		//}
+		//if (OversText.text.Contains(")"))
+		//{
+		//	Debug.Log(OversText.text);
+		//	OversText.text = OversText.text.Replace(")", LocalizationData.instance.getText(652));
+		//}
 	}
 
 	public void SwapScorecard()
 	{
-		scrollList.transform.position = startPos;
-		if (BtnTeamName.text.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName.ToUpper())
-		{
-			DisplayList(CONTROLLER.BattingTeamIndex);
-			BtnTeamName.text = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName.ToUpper();
-			SCTeamName.text = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName.ToUpper();
-			Sprite[] flags = Singleton<FlagHolderGround>.instance.flags;
-			foreach (Sprite sprite in flags)
-			{
-				if (sprite.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].abbrevation)
-				{
-					BtnTeamFlag.sprite = sprite;
-				}
-				if (sprite.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].abbrevation)
-				{
-					SCTeamFlag.sprite = sprite;
-				}
-			}
-			if (CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchWickets > 7)
-			{
-				scrollView.value = 0f;
-			}
-			else
-			{
-				scrollView.value = 1f;
-			}
-			if (CONTROLLER.PlayModeSelected == 7)
-			{
-				ScoreText.text = GetScore(CONTROLLER.BattingTeamIndex);
-				OversText.text = GetOvers(CONTROLLER.BattingTeamIndex);
-				if (OversText.text.Contains("("))
-				{
-					Debug.Log(OversText.text);
-					OversText.text = OversText.text.Replace("(", LocalizationData.instance.getText(651));
-				}
-				if (OversText.text.Contains(")"))
-				{
-					Debug.Log(OversText.text);
-					OversText.text = OversText.text.Replace(")", LocalizationData.instance.getText(652));
-				}
-			}
-		}
-		else
-		{
-			DisplayList(CONTROLLER.BowlingTeamIndex);
-			BtnTeamName.text = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName.ToUpper();
-			SCTeamName.text = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName.ToUpper();
-			Sprite[] flags2 = Singleton<FlagHolderGround>.instance.flags;
-			foreach (Sprite sprite2 in flags2)
-			{
-				if (sprite2.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].abbrevation)
-				{
-					BtnTeamFlag.sprite = sprite2;
-				}
-				if (sprite2.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].abbrevation)
-				{
-					SCTeamFlag.sprite = sprite2;
-				}
-			}
-			if (CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].currentMatchWickets > 7)
-			{
-				scrollView.value = 0f;
-			}
-			else
-			{
-				scrollView.value = 1f;
-			}
-			if (CONTROLLER.PlayModeSelected == 7)
-			{
-				ScoreText.text = GetScore(CONTROLLER.BowlingTeamIndex);
-				OversText.text = GetOvers(CONTROLLER.BowlingTeamIndex);
-				if (OversText.text.Contains("("))
-				{
-					Debug.Log(OversText.text);
-					OversText.text = OversText.text.Replace("(", LocalizationData.instance.getText(651));
-				}
-				if (OversText.text.Contains(")"))
-				{
-					Debug.Log(OversText.text);
-					OversText.text = OversText.text.Replace(")", LocalizationData.instance.getText(652));
-				}
-			}
-		}
-		CheckBatsmanStatus();
-		Singleton<BattingScoreBoardPanelTransition>.instance.PanelTransition();
+		//scrollList.transform.position = startPos;
+		//if (BtnTeamName.text.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName.ToUpper())
+		//{
+		//	DisplayList(CONTROLLER.BattingTeamIndex);
+		//	BtnTeamName.text = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName.ToUpper();
+		//	SCTeamName.text = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName.ToUpper();
+		//	Sprite[] flags = Singleton<FlagHolderGround>.instance.flags;
+		//	foreach (Sprite sprite in flags)
+		//	{
+		//		if (sprite.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].abbrevation)
+		//		{
+		//			BtnTeamFlag.sprite = sprite;
+		//		}
+		//		if (sprite.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].abbrevation)
+		//		{
+		//			SCTeamFlag.sprite = sprite;
+		//		}
+		//	}
+		//	if (CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].currentMatchWickets > 7)
+		//	{
+		//		scrollView.value = 0f;
+		//	}
+		//	else
+		//	{
+		//		scrollView.value = 1f;
+		//	}
+		//	if (CONTROLLER.PlayModeSelected == 7)
+		//	{
+		//		ScoreText.text = GetScore(CONTROLLER.BattingTeamIndex);
+		//		OversText.text = GetOvers(CONTROLLER.BattingTeamIndex);
+		//		if (OversText.text.Contains("("))
+		//		{
+		//			Debug.Log(OversText.text);
+		//			OversText.text = OversText.text.Replace("(", LocalizationData.instance.getText(651));
+		//		}
+		//		if (OversText.text.Contains(")"))
+		//		{
+		//			Debug.Log(OversText.text);
+		//			OversText.text = OversText.text.Replace(")", LocalizationData.instance.getText(652));
+		//		}
+		//	}
+		//}
+		//else
+		//{
+		//	DisplayList(CONTROLLER.BowlingTeamIndex);
+		//	BtnTeamName.text = CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].teamName.ToUpper();
+		//	SCTeamName.text = CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].teamName.ToUpper();
+		//	Sprite[] flags2 = Singleton<FlagHolderGround>.instance.flags;
+		//	foreach (Sprite sprite2 in flags2)
+		//	{
+		//		if (sprite2.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BattingTeamIndex].abbrevation)
+		//		{
+		//			BtnTeamFlag.sprite = sprite2;
+		//		}
+		//		if (sprite2.name.ToUpper() == CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].abbrevation)
+		//		{
+		//			SCTeamFlag.sprite = sprite2;
+		//		}
+		//	}
+		//	if (CONTROLLER.TeamList[CONTROLLER.BowlingTeamIndex].currentMatchWickets > 7)
+		//	{
+		//		scrollView.value = 0f;
+		//	}
+		//	else
+		//	{
+		//		scrollView.value = 1f;
+		//	}
+		//	if (CONTROLLER.PlayModeSelected == 7)
+		//	{
+		//		ScoreText.text = GetScore(CONTROLLER.BowlingTeamIndex);
+		//		OversText.text = GetOvers(CONTROLLER.BowlingTeamIndex);
+		//		if (OversText.text.Contains("("))
+		//		{
+		//			Debug.Log(OversText.text);
+		//			OversText.text = OversText.text.Replace("(", LocalizationData.instance.getText(651));
+		//		}
+		//		if (OversText.text.Contains(")"))
+		//		{
+		//			Debug.Log(OversText.text);
+		//			OversText.text = OversText.text.Replace(")", LocalizationData.instance.getText(652));
+		//		}
+		//	}
+		//}
+		//CheckBatsmanStatus();
+		//Singleton<BattingScoreBoardPanelTransition>.instance.PanelTransition();
 	}
 
 	private void CheckBatsmanStatus()

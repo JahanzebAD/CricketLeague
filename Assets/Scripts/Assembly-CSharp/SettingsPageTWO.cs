@@ -46,9 +46,9 @@ public class SettingsPageTWO : Singleton<SettingsPageTWO>
 		{
 			ValidateQualitySettings();
 		}
-		LocalizationData.instance.titleText = Loc_Heading1;
-		LocalizationData.instance.noteText = Loc_Heading2;
-		LocalizationData.instance.OkText = Loc_Heading3;
+		//LocalizationData.instance.titleText = Loc_Heading1;
+		//LocalizationData.instance.noteText = Loc_Heading2;
+		//LocalizationData.instance.OkText = Loc_Heading3;
 	}
 
 	public void SelectingCurrentLanguage()
@@ -169,14 +169,14 @@ public class SettingsPageTWO : Singleton<SettingsPageTWO>
 
 	private void setSFXVolume(float _bgVol)
 	{
-		CONTROLLER.sfxVolume = _bgVol;
-		CONTROLLER.sndController.updateSFXVolume();
+		//CONTROLLER.sfxVolume = _bgVol;
+		//CONTROLLER.sndController.updateSFXVolume();
 	}
 
 	private void setBGMVolume(float _bgVol)
 	{
-		CONTROLLER.menuBgVolume = _bgVol;
-		CONTROLLER.sndController.updateBGMVolume();
+		//CONTROLLER.menuBgVolume = _bgVol;
+		//CONTROLLER.sndController.updateBGMVolume();
 	}
 
 	private void setSliderPos()
